@@ -1,0 +1,55 @@
+# General ignores
+.DS_Store
+Thumbs.db
+
+# Node.js (React frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# React build output
+/build
+/dist
+.vite/
+
+# Python (FastAPI backend)
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+Pipfile.lock
+poetry.lock
+
+# FastAPI and general backend
+*.log
+*.sqlite3
+instance/
+*.db
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.example
+
+# MongoDB and database-related files
+/data/
+dump/
+*.lock
+mongod.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git-specific
+.git/
+.gitignore
