@@ -19,7 +19,7 @@ yarn-error.log*
 __pycache__/
 *.py[cod]
 *.so
-venv/
+.venv/
 env/
 Pipfile.lock
 poetry.lock
