@@ -51,4 +51,9 @@ mongod.lock
 *.swo
 
 # Git-specific
+<<<<<<< HEAD
 .git/
+=======
+.git/
+.gitignore
+>>>>>>> 8f23b9f6bbc8cbf94e7e89cacf2f20ea5cef4868
