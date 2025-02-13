@@ -1,12 +1,15 @@
 # General ignores
 .DS_Store
 Thumbs.db
+keys.py
 
 # Node.js (React frontend)
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 .pnp/
 .pnp.js
 
@@ -14,6 +17,9 @@ yarn-error.log*
 /build
 /dist
 .vite/
+dist
+dist-ssr
+*.local
 
 # Python (FastAPI backend)
 __pycache__/
@@ -25,6 +31,7 @@ Pipfile.lock
 poetry.lock
 
 # FastAPI and general backend
+logs/
 *.log
 *.sqlite3
 instance/
@@ -45,10 +52,14 @@ dump/
 mongod.lock
 
 # IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Git-specific
 .git/
