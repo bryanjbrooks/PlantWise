@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # Import the routers
 from app.core.climateZones import router as climateZonesRouter
+from app.core.database import router as databaseRouter
 from app.core.fruits import router as fruitsRouter
 from app.core.herbs import router as herbsRouter
 from app.core.lastFrost import router as lastFrostRouter
@@ -24,6 +25,7 @@ app = FastAPI(
 
 # Include the routers
 app.include_router(climateZonesRouter, prefix="/climateZones", tags=["Climate Zones"])
+app.include_router(databaseRouter, prefix="/database", tags=["Database"])
 app.include_router(fruitsRouter, prefix="/fruits", tags=["Fruits"])
 app.include_router(herbsRouter, prefix="/herbs", tags=["Herbs"])
 app.include_router(lastFrostRouter, prefix="/lastFrost", tags=["Last Frost"])
@@ -32,7 +34,7 @@ app.include_router(weatherRouter, prefix="/weather", tags=["Weather"])
 app.include_router(geocodioRouter, prefix="/geocodio", tags=["Geocodio"])
 app.include_router(openWeatherRouter, prefix="/openWeather", tags=["OpenWeather"])
 
-# Allow requests from your Vite server during development
+# Allow requests from the Vite server during development
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],
@@ -44,7 +46,7 @@ app.add_middleware(
 # Root route
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the PlantWise API"}
+    return {"message": "Welcome to the PlantWise API!"}
 
 if __name__ == "__main__":
     import uvicorn

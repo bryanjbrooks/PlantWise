@@ -10,12 +10,12 @@ import httpx
 from starlette.concurrency import run_in_threadpool
 
 # FOR TESTING PURPOSES ONLY
-# import sys
-# import os
-# sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from app.core.keys import getOpenWeatherKey
-from app.core.weatherHistory import addDailyWeather, addMultipleDailyWeather
+from app.core.weatherHistory import addDailyWeather, addMultipleDailyWeather, getWeatherData
 
 # FastAPI Router
 router = APIRouter()
@@ -45,8 +45,11 @@ async def getWeatherData(lat: float, long: float, date: str, zipCode: str):
 @router.get("/historicalWeather")
 async def getHistoricalWeatherData(lat: float, long: float, zipCode: str):
     endDate = datetime.now()
-    startDate = endDate - timedelta(days=2*365)  # Past 2 years
+    startDate = datetime(endDate.year - 2, 1, 1)
     allDates = []
+    
+    print(f'Start Date: {startDate}')
+    print(f'End Date: {endDate}')
     
     # Build a list of date strings ("YYYY-MM-DD")
     currentDate = startDate
@@ -56,38 +59,34 @@ async def getHistoricalWeatherData(lat: float, long: float, zipCode: str):
         
     print(len(allDates))
     
-    # batchSize = 5
-    # allResults = []
-    # allDateStrs = []
+    batchSize = 5
+    allResults = []
+    allDateStrs = []
     
-    # # Process dates in batches to respect the 5 requests per second limit
-    # for i in range(0, len(allDates), batchSize):
-    #     batchDates = allDates[i:i+batchSize]
-    #     tasks = [getWeatherData(lat, long, dateStr, zipCode) for dateStr in batchDates]
-    #     batchResults = await asyncio.gather(*tasks)
-    #     allResults.extend(batchResults)
-    #     allDateStrs.extend(batchDates)
-    #     # Pause for 1 second to stay within the rate limit
-    #     await asyncio.sleep(1)
+    # Process dates in batches to respect the 5 requests per second limit
+    for i in range(0, len(allDates), batchSize):
+        batchDates = allDates[i:i+batchSize]
+        tasks = [getWeatherData(lat, long, dateStr, zipCode) for dateStr in batchDates]
+        batchResults = await asyncio.gather(*tasks)
+        allResults.extend(batchResults)
+        allDateStrs.extend(batchDates)
+        # Pause for 1 second to stay within the rate limit
+        await asyncio.sleep(1)
     
-    # # Combine each date with its corresponding weather data
-    # temps = []
-    # for dateStr, weatherData in zip(allDateStrs, allResults):
-    #     minTemp = weatherData["temperature"]["min"]
-    #     maxTemp = weatherData["temperature"]["max"]
-    #     temps.append({"date": dateStr, "minTemp": minTemp, "maxTemp": maxTemp})
+    # Combine each date with its corresponding weather data
+    temps = []
+    for dateStr, weatherData in zip(allDateStrs, allResults):
+        minTemp = weatherData["temperature"]["min"]
+        temps.append({"date": dateStr, "min": minTemp})
     
-    # # Insert the batch of weather records into the database
-    # result = await run_in_threadpool(addMultipleDailyWeather, zipCode, temps)
-    # return {"insertedIds": [str(doc.inserted_id) for doc in result.inserted_ids]}
+    # Insert the batch of weather records into the database
+    result = await run_in_threadpool(addMultipleDailyWeather, zipCode, temps)
+    return {"insertedIds": [str(doc.inserted_id) for doc in result.inserted_ids]}
 
-# Test the Geocodio API connection and get the coordinates of a zip code and an address
-# async def main():
-#     minTemp = await getHistoricalWeatherData(39.746027, -121.836171, 95926)
-#     # print(type(minTemp))
-#     # print(f"Minimum temperature on 2025-01-01: {minTemp}°F")
-#     # minTemps = await getHistoricalWeatherData(39.746027, -121.836171)
-#     # print(minTemps)
+# Test the OpenWeather API connection and get the historical weather data for 95926
+async def main():
+    await getHistoricalWeatherData(39.746027, -121.836171, 95926)
+    # print(minTemps)
 
-# if __name__ == "__main__":
-#     asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

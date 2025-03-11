@@ -3,18 +3,15 @@
 # Notes: 
 # File: weatherHistory.py
 
+from app.core.database import getDB
 from fastapi import APIRouter
 from pymongo import MongoClient
 
 # FastAPI Router
 router = APIRouter()
 
-# MongoDB Connection
-MONGO_URI = "mongodb://localhost:27017"
-client = MongoClient(MONGO_URI)
-
 # Weather Database
-weather = client["weatherHistory"]
+weather = getDB("weatherHistory")
 
 # Check if the database is connected
 @router.get("/checkDB")
@@ -59,3 +56,15 @@ def getWeatherData(zipCode: str):
     collection = weather[zipCode]
     data = list(collection.find({}, {"_id": 0}))
     return {"weatherData": data}
+
+# Update weather data for a specific zip code
+@router.put("/updateWeatherData")
+def updateWeatherData(zipCode: str, date: str, minTemp: float):
+    if not checkWeatherCollection(zipCode):
+        return {"error": "No weather data found for this location."}
+    
+    collection = weather[zipCode]
+    query = {"date": date}
+    new_values = {"$set": {"min": minTemp}}
+    result = collection.update_one(query, new_values)
+    return {"modifiedCount": result.modified_count}

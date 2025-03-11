@@ -1,30 +1,22 @@
-# Description: This file contains the function to calculate the last frost date
+# Description: Contains the function to calculate the last frost date
 # for each year for a given location (by zip code) and to insert that data into the database.
 # Notes: Assumes weather data dates are in ISO format "YYYY-MM-DD".
 # File: lastFrost.py
 
+from app.core.database import getDB
+from app.core.weatherHistory import getWeatherData
 from fastapi import APIRouter
 from pymongo import MongoClient
 from datetime import datetime
-from app.core.weatherHistory import getWeatherData  # Assumes this function returns weather data in the form {"weatherData": [...]}
 
 # FastAPI Router
 router = APIRouter()
 
-# MongoDB Connection
-MONGO_URI = "mongodb://localhost:27017"
-client = MongoClient(MONGO_URI)
-
 # Database for last frost dates
-lastFrostDB = client["lastFrost"]
+lastFrostDB = getDB("lastFrost")
 
 # Collection for storing last frost dates by year
 lastFrostCollection = lastFrostDB["lastFrostDates"]
-
-# Check if the database is connected
-@router.get("/checkDB")
-def checkDB():
-    return client.server_info()
 
 # Calculate and store the last frost date for each year for a given zip code
 @router.get("/calculateLastFrostEachYear")
@@ -70,3 +62,37 @@ def calculateLastFrostEachYear(zipCode: str):
         )
 
     return {"zipCode": zipCode, "lastFrostByYear": lastFrostByYear}
+
+# Get the average last frost date (month and day) for a given zip code
+@router.get("/getAverageLastFrostDate")
+def getAverageLastFrostDate(zipCode: str):
+    # Retrieve documents for this zip code (each document has fields "zipCode", "year", and "lastFrostDate")
+    docs = list(lastFrostCollection.find({"zipCode": zipCode}, {"_id": 0, "lastFrostDate": 1}))
+    if not docs:
+        return {"error": "No last frost data found for this location."}
+
+    totalDayOfYear = 0
+    count = 0
+
+    for doc in docs:
+        dateStr = doc.get("lastFrostDate")
+        try:
+            dt = datetime.strptime(dateStr, "%Y-%m-%d")
+        except Exception as e:
+            continue  # Skip any invalid date formats
+        dayOfYear = dt.timetuple().tm_yday
+        totalDayOfYear += dayOfYear
+        count += 1
+
+    if count == 0:
+        return {"error": "No valid frost dates found."}
+
+    # Calculate the average day of the year (as an integer)
+    avgDay = int(round(totalDayOfYear / count))
+
+    # Convert the average day-of-year back to a date in a reference non-leap year (e.g., 2021)
+    referenceYear = 2021  # A non-leap year for consistency
+    avgDate = datetime(referenceYear, 1, 1) + timedelta(days=avgDay - 1)
+    avgDateStr = avgDate.strftime("%m-%d")  # Returns a string like "04-15"
+
+    return {"zipCode": zipCode, "averageLastFrostDate": avgDateStr}

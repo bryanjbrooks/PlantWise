@@ -14,6 +14,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 
 from app.core.keys import getGeocodioKey
 
+# FastAPI Router
 router = APIRouter()
 
 # Geocodio API URL and Key
@@ -72,12 +73,12 @@ async def getZipCoordinates(zipcode: str):
 
 # Test the Geocodio API connection and get the coordinates of a zip code and an address
 async def main():
-    # add = await getAddressCoordinates("1301 Sheridan Ave, Chico CA 95926")
-    # print(add)
-    # city = await getCityCoordinates("Chico")
-    # print(city)
+    add = await getAddressCoordinates("1301 Sheridan Ave, Chico CA 95926")
+    print(f'Coordinates for 1301 Sheridan Ave, Chico CA 95926: {add}')
+    city = await getCityCoordinates("Chico")
+    print(f'Coordinates for Chico: {city}')
     zip = await getZipCoordinates("95926")
-    print(zip)
+    print('Coordinates for 95926: {zip}')
     
 if __name__ == "__main__":
     asyncio.run(main())

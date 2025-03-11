@@ -7,26 +7,18 @@
 # https://prism.oregonstate.edu/projects/plant_hardiness_zones.php
 # File: climateDB.py
 
+from app.core.database import getDB
 from fastapi import APIRouter, Query
 from pymongo import MongoClient
 
 # FastAPI Router
 router = APIRouter()
 
-# MongoDB Connection
-MONGO_URI = "mongodb://localhost:27017"
-client = MongoClient(MONGO_URI)
-
 # Database and Collection
-db = client["climateZones"]
+db = getDB("climateZones")
 us = db["US"]
 
-# Check if the database is connected
-@router.get("/checkClimateDB")
-def checkClimateDB():
-    return client.server_info()
-
-# Get the hardiness zone for an Alaska, Hawaii, Puerto Rico or contiguous US zip code
+# Get the USDA hardiness zone for an Alaska, Hawaii, Puerto Rico or contiguous US zip code
 @router.get("/getZone")
 def getZone(zip: str = Query(..., min_length=5, max_length=5)):
     return us.find_one({"zipcode": zip}, {"_id": 0})

@@ -3,24 +3,17 @@
 # Notes: 
 # File: herbs.py
 
+from app.core.database import getDB
 from fastapi import APIRouter
 from pymongo import MongoClient
 
 # FastAPI Router
 router = APIRouter()
 
-# MongoDB Connection
-MONGO_URI = "mongodb://localhost:27017"
-client = MongoClient(MONGO_URI)
-
 # Database and Collection
-db = client["plants"]
+db = getDB("plants")
 herbs = db["herbs"]
 
-# Check if the database is connected
-@router.get("/checkPlantsDB")
-def checkPlantsDB():
-    return client.server_info()
 
 # Get all herbs
 @router.get("/getHerbs")
