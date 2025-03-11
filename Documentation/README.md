@@ -44,13 +44,14 @@ Documentation and references for the project
       - `app/`
         - `core/` - Configs and utilities
           - `__init__.py` - Python package initializer
-          - `climateZones.py` - Climate zone data
+          - `climateZones.py` - Climate zone data DB
           - `config.py` - Env variables & settings
-          - `fruits.py` - Fruit planting times
-          - `herbs.py` - Herb planting times
-          - `lastFrost.py` - Last frost dates
-          - `vegetables.py` - Vegetable planting times
-          - `weather.py` - Historical weather data
+          - `database.py` - MongoDB connection
+          - `fruits.py` - Fruit planting information DB
+          - `herbs.py` - Herb planting information DB
+          - `lastFrost.py` - Last frost information DB
+          - `vegetables.py` - Vegetable planting information DB
+          - `weather.py` - Historical weather data DB
         - `models/` MongoDB models (schemas)
           - `__init__.py` - Python package initializer
         - `routes/` - API routes
