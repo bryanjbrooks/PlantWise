@@ -45,7 +45,16 @@ def addMultipleDailyWeather(zipCode: str, data: list):
         weather.create_collection(zipCode)
 
     collection = weather[zipCode]
-    return {"insertedIds": [str(doc.inserted_id) for doc in collection.insert_many(data).inserted_ids]}
+
+    # Get all existing dates
+    existingDates = set(doc["date"] for doc in collection.find({}, {"date": 1}))
+    newData = [doc for doc in data if doc["date"] not in existingDates]
+
+    if not newData:
+        return {"message": "No new weather data to insert."}
+
+    collection.insert_many(newData)
+    return {"message": f"Inserted {len(newData)} new weather records."}
 
 # Get all weather data for a zip code
 @router.get("/getWeatherData")

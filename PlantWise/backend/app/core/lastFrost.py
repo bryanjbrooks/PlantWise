@@ -7,92 +7,111 @@ from app.core.database import getDB
 from app.core.weatherHistory import getWeatherData
 from fastapi import APIRouter
 from pymongo import MongoClient
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # FastAPI Router
 router = APIRouter()
 
-# Database for last frost dates
+# Databases for spring and fall frost dates and average frost dates
+frostDB = getDB("frostDates")
+
+# Databases
 lastFrostDB = getDB("lastFrost")
+frostDatesDB = getDB("frostDates")
 
-# Collection for storing last frost dates by year
-lastFrostCollection = lastFrostDB["lastFrostDates"]
 
-# Calculate and store the last frost date for each year for a given zip code
-@router.get("/calculateLastFrostEachYear")
-def calculateLastFrostEachYear(zipCode: str):
-    # Retrieve weather data for the given zip code
+@router.get("/calculateFrostDates")
+@router.get("/calculateFrostDates")
+def calculateFrostDates(zipCode: str):
     weatherData = getWeatherData(zipCode)
     if "error" in weatherData:
         return weatherData
 
     weatherRecords = weatherData["weatherData"]
 
-    # Group weather records by year
+    # Group by year
     recordsByYear = {}
     for record in weatherRecords:
         try:
-            # Parse the date (assumed format "YYYY-MM-DD")
             recordDate = datetime.strptime(record["date"], "%Y-%m-%d")
-        except Exception as e:
-            continue  # Skip this record if date parsing fails
-
+        except Exception:
+            continue
         year = recordDate.year
         recordsByYear.setdefault(year, []).append(record)
 
-    # For each year, find the last frost date (last date with min temperature <= 32°F)
-    lastFrostByYear = {}
+    frostData = {}
     for year, records in recordsByYear.items():
-        # Sort records in descending order (latest dates first)
-        records.sort(key=lambda r: r["date"], reverse=True)
-        lastFrostDate = None
-        for rec in records:
-            if rec["min"] <= 32:
-                lastFrostDate = rec["date"]
-                break
-        if lastFrostDate:
-            lastFrostByYear[year] = lastFrostDate
+        records.sort(key=lambda r: r["date"])  # oldest to newest
 
-    # Insert or update the last frost dates in the database
-    for year, frostDate in lastFrostByYear.items():
-        lastFrostCollection.update_one(
-            {"zipCode": zipCode, "year": year},
-            {"$set": {"lastFrostDate": frostDate}},
+        spring = [r for r in records if datetime.strptime(r["date"], "%Y-%m-%d").month < 7]
+        fall = [r for r in records if datetime.strptime(r["date"], "%Y-%m-%d").month >= 7]
+
+        lastSpringFrost = None
+        for r in reversed(spring):
+            if r["min"] <= 32:
+                lastSpringFrost = r["date"]
+                break
+
+        firstFallFrost = None
+        for r in fall:
+            if r["min"] <= 32:
+                firstFallFrost = r["date"]
+                break
+
+        frostData[year] = {
+            "lastSpringFrost": lastSpringFrost,
+            "firstFallFrost": firstFallFrost
+        }
+
+        # Store in frostDates DB with collection name as zipCode
+        collection = frostDatesDB[str(zipCode)]
+        collection.update_one(
+            {"year": year},
+            {"$set": frostData[year]},
             upsert=True
         )
 
-    return {"zipCode": zipCode, "lastFrostByYear": lastFrostByYear}
+    # Calculate and store average frost dates
+    lastSpringDates = [v["lastSpringFrost"] for v in frostData.values() if v["lastSpringFrost"]]
+    firstFallDates = [v["firstFallFrost"] for v in frostData.values() if v["firstFallFrost"]]
 
-# Get the average last frost date (month and day) for a given zip code
-@router.get("/getAverageLastFrostDate")
-def getAverageLastFrostDate(zipCode: str):
-    # Retrieve documents for this zip code (each document has fields "zipCode", "year", and "lastFrostDate")
-    docs = list(lastFrostCollection.find({"zipCode": zipCode}, {"_id": 0, "lastFrostDate": 1}))
-    if not docs:
-        return {"error": "No last frost data found for this location."}
+    def computeAverage(dateStrs):
+        total, count = 0, 0
+        for d in dateStrs:
+            try:
+                dt = datetime.strptime(d, "%Y-%m-%d")
+                total += dt.timetuple().tm_yday
+                count += 1
+            except:
+                continue
+        if count == 0:
+            return None
+        avgDay = int(round(total / count))
+        avgDate = datetime(2021, 1, 1) + timedelta(days=avgDay - 1)
+        return avgDate.strftime("%Y-%m-%d")
 
-    totalDayOfYear = 0
-    count = 0
+    avgLastSpring = computeAverage(lastSpringDates)
+    avgFirstFall = computeAverage(firstFallDates)
 
-    for doc in docs:
-        dateStr = doc.get("lastFrostDate")
-        try:
-            dt = datetime.strptime(dateStr, "%Y-%m-%d")
-        except Exception as e:
-            continue  # Skip any invalid date formats
-        dayOfYear = dt.timetuple().tm_yday
-        totalDayOfYear += dayOfYear
-        count += 1
+    frostDatesDB["average"].update_one(
+        {"_id": str(zipCode)},
+        {"$set": {
+            "lastSpringFrost": {"date": avgLastSpring},
+            "firstFallFrost": {"date": avgFirstFall}
+        }},
+        upsert=True
+    )
 
-    if count == 0:
-        return {"error": "No valid frost dates found."}
+    return {"frostByYear": frostData, "averages": {
+        "lastSpringFrost": avgLastSpring,
+        "firstFallFrost": avgFirstFall
+    }}
 
-    # Calculate the average day of the year (as an integer)
-    avgDay = int(round(totalDayOfYear / count))
-
-    # Convert the average day-of-year back to a date in a reference non-leap year (e.g., 2021)
-    referenceYear = 2021  # A non-leap year for consistency
-    avgDate = datetime(referenceYear, 1, 1) + timedelta(days=avgDay - 1)
-    avgDateStr = avgDate.strftime("%m-%d")  # Returns a string like "04-15"
-
-    return {"zipCode": zipCode, "averageLastFrostDate": avgDateStr}
+# Get average frost dates for a zip code
+@router.get("/getAverageFrostDates")
+def getAverageFrostDates(zipCode: str):
+    collection = frostDatesDB["average"]
+    doc = collection.find_one({"_id": str(zipCode)}, {"_id": 0})
+    if not doc:
+        return {"error": "No average frost data found for this location."}
+    return doc
