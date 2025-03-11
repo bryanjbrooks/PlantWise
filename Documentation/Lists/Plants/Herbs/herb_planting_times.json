@@ -1,0 +1,324 @@
+[
+  {
+    "Herb": "Basil",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant after last frost; prefers warm temperatures and full sun."
+  },
+  {
+    "Herb": "Bay Leaf",
+    "Zones": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in early spring; thrives in warm climates and well-drained soil."
+  },
+  {
+    "Herb": "Borage",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "March-June",
+    "Maturity_Time": "60-80 days",
+    "Special_Instructions": "Plant in early spring; attracts pollinators and prefers full sun."
+  },
+  {
+    "Herb": "Chive",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant in early spring or fall; tolerates partial shade and moist soil."
+  },
+  {
+    "Herb": "Cilantro",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "45-70 days",
+    "Special_Instructions": "Plant in early spring or fall; prefers cooler weather and well-drained soil."
+  },
+  {
+    "Herb": "Dill",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "March-July",
+    "Maturity_Time": "40-60 days",
+    "Special_Instructions": "Plant after last frost; needs full sun and well-drained soil."
+  },
+  {
+    "Herb": "Fennel",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "March-June",
+    "Maturity_Time": "90-120 days",
+    "Special_Instructions": "Plant in early spring; prefers full sun and moist soil."
+  },
+  {
+    "Herb": "Ginger",
+    "Zones": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-August",
+    "Maturity_Time": "8-10 months",
+    "Special_Instructions": "Plant in spring or summer; requires warm temperatures and rich, moist soil."
+  },
+  {
+    "Herb": "Horseradish",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "6-12 months",
+    "Special_Instructions": "Plant in early spring or fall; grows best in deep, loose soil."
+  },
+  {
+    "Herb": "Lavender",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "1-2 years",
+    "Special_Instructions": "Plant in early spring; requires well-drained, sandy soil and full sun."
+  },
+  {
+    "Herb": "Lemon Balm",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant in early spring or fall; tolerates partial shade and moist soil."
+  },
+  {
+    "Herb": "Lemongrass",
+    "Zones": [
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-July",
+    "Maturity_Time": "90-120 days",
+    "Special_Instructions": "Plant in spring or summer; needs warm temperatures and well-drained soil."
+  },
+  {
+    "Herb": "Marjoram",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "March-June",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant after last frost; prefers warm weather and full sun."
+  },
+  {
+    "Herb": "Mint",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant in early spring or fall; spreads quickly, so grow in containers if needed."
+  },
+  {
+    "Herb": "Oregano",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "March-June",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant in early spring; prefers full sun and well-drained soil."
+  },
+  {
+    "Herb": "Parsley",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "70-90 days",
+    "Special_Instructions": "Plant in early spring or fall; grows well in partial shade."
+  },
+  {
+    "Herb": "Rosemary",
+    "Zones": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "1-2 years",
+    "Special_Instructions": "Plant in early spring or fall; prefers well-drained soil and full sun."
+  },
+  {
+    "Herb": "Sage",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant in early spring or fall; needs full sun and well-drained soil."
+  },
+  {
+    "Herb": "Tarragon",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant in early spring; prefers well-drained, sandy soil and full sun."
+  },
+  {
+    "Herb": "Thyme",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "90-120 days",
+    "Special_Instructions": "Plant in early spring or fall; requires full sun and dry, well-drained soil."
+  }
+]

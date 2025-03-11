@@ -1,0 +1,963 @@
+[
+  {
+    "Vegetable": "Artichoke",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "85-120 days",
+    "Special_Instructions": "Start indoors in colder zones."
+  },
+  {
+    "Vegetable": "Arugula",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "30-45 days",
+    "Special_Instructions": "Can tolerate light frosts."
+  },
+  {
+    "Vegetable": "Asparagus",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-April",
+    "Maturity_Time": "5 years",
+    "Special_Instructions": "Plant crowns in well-drained soil."
+  },
+  {
+    "Vegetable": "Avocado",
+    "Zones": [
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "3-4 years, 5-13 years from seed",
+    "Special_Instructions": "Requires warm climate; protect from frost."
+  },
+  {
+    "Vegetable": "Beet",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "55-70 days",
+    "Special_Instructions": "Best grown in cool temperatures."
+  },
+  {
+    "Vegetable": "Black Turtle Beans",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "90-110 days",
+    "Special_Instructions": "Plant after last frost."
+  },
+  {
+    "Vegetable": "Bok Choy",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "45-60 days",
+    "Special_Instructions": "Grows best in cool weather."
+  },
+  {
+    "Vegetable": "Broccoli",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "50-90 days",
+    "Special_Instructions": "Prefers cooler temperatures."
+  },
+  {
+    "Vegetable": "Brussel Sprouts",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-September",
+    "Maturity_Time": "80-130 days",
+    "Special_Instructions": "Harvests best after frost."
+  },
+  {
+    "Vegetable": "Cabbage",
+    "Zones": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-September",
+    "Maturity_Time": "60-100 days",
+    "Special_Instructions": "Grows well in cooler weather."
+  },
+  {
+    "Vegetable": "Carrot",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-September",
+    "Maturity_Time": "55-80 days",
+    "Special_Instructions": "Loose soil helps root development."
+  },
+  {
+    "Vegetable": "Cauliflower",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-September",
+    "Maturity_Time": "50-85 days",
+    "Special_Instructions": "Prefers consistent moisture."
+  },
+  {
+    "Vegetable": "Celery",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "130-140 days",
+    "Special_Instructions": "Start indoors 10-12 weeks before transplanting."
+  },
+  {
+    "Vegetable": "Chard",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "50-70 days",
+    "Special_Instructions": "Tolerates heat better than spinach."
+  },
+  {
+    "Vegetable": "Chayote",
+    "Zones": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "4-5 months",
+    "Special_Instructions": "Needs a long growing season."
+  },
+  {
+    "Vegetable": "Collards",
+    "Zones": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "60-80 days",
+    "Special_Instructions": "Can survive mild frosts."
+  },
+  {
+    "Vegetable": "Cucumber",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-July",
+    "Maturity_Time": "50-70 days",
+    "Special_Instructions": "Plant after last frost."
+  },
+  {
+    "Vegetable": "Eggplant",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "65-80 days after transplant, 100-120 days from seed",
+    "Special_Instructions": "Start indoors in colder zones."
+  },
+  {
+    "Vegetable": "Fava Beans",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "80-90 days",
+    "Special_Instructions": "Start indoors in colder zones."
+  },
+  {
+    "Vegetable": "Garlic (Hardneck)",
+    "Zones": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Planting_Season": "Fall",
+    "Planting_Time": "September-November",
+    "Maturity_Time": "8-10 months",
+    "Special_Instructions": "Plant in fall for summer harvest."
+  },
+  {
+    "Vegetable": "Garlic (Softneck)",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Fall",
+    "Planting_Time": "September-November",
+    "Maturity_Time": "8-10 months",
+    "Special_Instructions": "Needs mild winter conditions."
+  },
+  {
+    "Vegetable": "Green Beans",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-July",
+    "Maturity_Time": "45-65 days",
+    "Special_Instructions": "Plant after last frost."
+  },
+  {
+    "Vegetable": "Green Onion",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "50-90 days",
+    "Special_Instructions": "Can be grown year-round in mild climates."
+  },
+  {
+    "Vegetable": "Jicama",
+    "Zones": [
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "90-180+ days",
+    "Special_Instructions": "Requires a long growing season."
+  },
+  {
+    "Vegetable": "Kale",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "55-75 days",
+    "Special_Instructions": "Tolerates frost well."
+  },
+  {
+    "Vegetable": "Kohlrabi",
+    "Zones": "3,4,5,6,7,8,9,10,11]",
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-September",
+    "Maturity_Time": "50-60 days",
+    "Special_Instructions": "Grows quickly in cool weather."
+  },
+  {
+    "Vegetable": "Leek",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "100-120 days",
+    "Special_Instructions": "Start indoors early."
+  },
+  {
+    "Vegetable": "Lettuce",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "30-70 days",
+    "Special_Instructions": "Grows best in cooler temperatures."
+  },
+  {
+    "Vegetable": "Lima Beans",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "60-90 days",
+    "Special_Instructions": "Plant after last frost."
+  },
+  {
+    "Vegetable": "Mustard Greens",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "45-55 days",
+    "Special_Instructions": "Grows quickly in cool weather."
+  },
+  {
+    "Vegetable": "Okra",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Okra",
+    "Planting_Time": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Maturity_Time": "Spring, Summer",
+    "Special_Instructions": "April-July"
+  },
+  {
+    "Vegetable": "Onion",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-September",
+    "Maturity_Time": "90-120 days",
+    "Special_Instructions": "Choose short-day or long-day varieties accordingly."
+  },
+  {
+    "Vegetable": "Parsnip",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "100-120 days",
+    "Special_Instructions": "Needs loose, well-drained soil."
+  },
+  {
+    "Vegetable": "Peanuts",
+    "Zones": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "130-155 days",
+    "Special_Instructions": "Needs a long growing season."
+  },
+  {
+    "Vegetable": "Peas",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-September",
+    "Maturity_Time": "60 days",
+    "Special_Instructions": "Plant early as they prefer cool weather."
+  },
+  {
+    "Vegetable": "Peppers",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "",
+    "Planting_Time": "Spring",
+    "Maturity_Time": "April-June",
+    "Special_Instructions": "60-150 days"
+  },
+  {
+    "Vegetable": "Pinto Beans",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "90-150 days",
+    "Special_Instructions": "Plant after last frost."
+  },
+  {
+    "Vegetable": "Potato",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "60-135 days",
+    "Special_Instructions": "Plant seed potatoes in well-drained soil."
+  },
+  {
+    "Vegetable": "Pumpkin",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "90-120 days",
+    "Special_Instructions": "Requires long growing season."
+  },
+  {
+    "Vegetable": "Radicchio",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "55-90 days",
+    "Special_Instructions": "Grows best in cool weather."
+  },
+  {
+    "Vegetable": "Radish",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "25-65 days",
+    "Special_Instructions": "Fast-growing and cold-tolerant."
+  },
+  {
+    "Vegetable": "Red beans",
+    "Zones": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "60-140 days",
+    "Special_Instructions": "Plant after last frost."
+  },
+  {
+    "Vegetable": "Rhubarb",
+    "Zones": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "90-140 days",
+    "Special_Instructions": "Best planted as crowns."
+  },
+  {
+    "Vegetable": "Rutabaga",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "80-100 days",
+    "Special_Instructions": "Grows well in cool weather."
+  },
+  {
+    "Vegetable": "Salsify",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "110-180 days",
+    "Special_Instructions": "Prefers loose, deep soil."
+  },
+  {
+    "Vegetable": "Scallion",
+    "Zones": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "50-80 days",
+    "Special_Instructions": "Can be grown year-round in mild climates."
+  },
+  {
+    "Vegetable": "Shallot",
+    "Zones": "[2.3.45,6,7,8,9,10]",
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, September-October",
+    "Maturity_Time": "90-120 days",
+    "Special_Instructions": "Plant in loose, well-drained soil."
+  },
+  {
+    "Vegetable": "Soy Beans",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "90-150 days",
+    "Special_Instructions": "Needs warm temperatures to germinate."
+  },
+  {
+    "Vegetable": "Spinach",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "30-50 days",
+    "Special_Instructions": "Prefers cool weather."
+  },
+  {
+    "Vegetable": "Sweet Corn",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "60-100 days",
+    "Special_Instructions": "Plant after last frost."
+  },
+  {
+    "Vegetable": "Sweet Potato",
+    "Zones": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "85-120 days",
+    "Special_Instructions": "Requires warm weather."
+  },
+  {
+    "Vegetable": "Tomatillo",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "60-100 days",
+    "Special_Instructions": "Start indoors in colder zones."
+  },
+  {
+    "Vegetable": "Tomato",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "60-100 days",
+    "Special_Instructions": "Start indoors in colder zones."
+  },
+  {
+    "Vegetable": "Turnip",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-May, August-October",
+    "Maturity_Time": "35-70 days",
+    "Special_Instructions": "Fast-growing and frost-tolerant."
+  },
+  {
+    "Vegetable": "Water Chestnut",
+    "Zones": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Summer",
+    "Planting_Time": "May-June",
+    "Maturity_Time": "120-180 days",
+    "Special_Instructions": "Requires standing water to grow."
+  },
+  {
+    "Vegetable": "Winter Squash",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Summer",
+    "Planting_Time": "May-June",
+    "Maturity_Time": "80-120 days",
+    "Special_Instructions": "Plant after last frost, provide plenty of space."
+  },
+  {
+    "Vegetable": "Yam",
+    "Zones": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Summer",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "120-150 days",
+    "Special_Instructions": "Prefers warm soil and a long growing season."
+  },
+  {
+    "Vegetable": "Zucchini",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Summer",
+    "Planting_Time": "May-June",
+    "Maturity_Time": "45-65 days",
+    "Special_Instructions": "Best grown in full sun with regular watering."
+  }
+]

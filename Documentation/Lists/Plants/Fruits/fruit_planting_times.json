@@ -1,0 +1,546 @@
+[
+  {
+    "Fruit": "Apple",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-5 years",
+    "Special_Instructions": "Plant in early spring or fall; requires full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Apricot",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "February-April",
+    "Maturity_Time": "2-4 years",
+    "Special_Instructions": "Plant in early spring; prefers full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Blackberry",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, October-November",
+    "Maturity_Time": "1-2 years",
+    "Special_Instructions": "Plant in early spring or fall; needs well-drained, fertile soil."
+  },
+  {
+    "Fruit": "Blueberry",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in early spring; requires acidic soil (pH 4.5-5.5) and full sun."
+  },
+  {
+    "Fruit": "Blood Orange",
+    "Zones": [
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in spring or fall; needs well-drained soil and full sun."
+  },
+  {
+    "Fruit": "Boysenberry",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "February-April",
+    "Maturity_Time": "1-2 years",
+    "Special_Instructions": "Plant in early spring; prefers moist, well-drained soil."
+  },
+  {
+    "Fruit": "Cantaloupe",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "70-90 days",
+    "Special_Instructions": "Plant after last frost; requires warm temperatures and full sun."
+  },
+  {
+    "Fruit": "Cherry",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "February-April",
+    "Maturity_Time": "3-5 years",
+    "Special_Instructions": "Plant in early spring; requires well-drained soil and full sun."
+  },
+  {
+    "Fruit": "Cranberry",
+    "Zones": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "3-4 years",
+    "Special_Instructions": "Plant in early spring; thrives in acidic, wet soil."
+  },
+  {
+    "Fruit": "Currant",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in early spring or fall; prefers well-drained soil and partial shade."
+  },
+  {
+    "Fruit": "Dragon Fruit",
+    "Zones": [
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-August",
+    "Maturity_Time": "1-2 years",
+    "Special_Instructions": "Plant in spring or summer; requires a trellis for support and warm temperatures."
+  },
+  {
+    "Fruit": "Elderberry",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in early spring or fall; needs well-drained, moist soil."
+  },
+  {
+    "Fruit": "Fig",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "1-2 years",
+    "Special_Instructions": "Plant in early spring or fall; prefers full sun and loamy soil."
+  },
+  {
+    "Fruit": "Goji Berry",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in early spring; requires well-drained soil and full sun."
+  },
+  {
+    "Fruit": "Gooseberry",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in early spring or fall; prefers moist, well-drained soil."
+  },
+  {
+    "Fruit": "Grape",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in early spring; requires a trellis for support and full sun."
+  },
+  {
+    "Fruit": "Grapefruit",
+    "Zones": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in spring or fall; needs full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Guava",
+    "Zones": [
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-August",
+    "Maturity_Time": "2-4 years",
+    "Special_Instructions": "Plant in spring or summer; prefers warm climates and well-drained soil."
+  },
+  {
+    "Fruit": "Honeydew",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "80-100 days",
+    "Special_Instructions": "Plant after last frost; needs warm temperatures and full sun."
+  },
+  {
+    "Fruit": "Jackfruit",
+    "Zones": [
+      10,
+      11,
+      12
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "March-August",
+    "Maturity_Time": "3-5 years",
+    "Special_Instructions": "Plant in spring or summer; requires tropical conditions and deep soil."
+  },
+  {
+    "Fruit": "Kiwi",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "3-5 years",
+    "Special_Instructions": "Plant in early spring; needs a trellis and well-drained soil."
+  },
+  {
+    "Fruit": "Lemon",
+    "Zones": [
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in spring or fall; requires full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Lime",
+    "Zones": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in spring or fall; needs warm temperatures and full sun."
+  },
+  {
+    "Fruit": "Mango",
+    "Zones": [
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-August",
+    "Maturity_Time": "3-6 years",
+    "Special_Instructions": "Plant in spring or summer; requires well-drained soil and full sun."
+  },
+  {
+    "Fruit": "Nectarine",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "February-April",
+    "Maturity_Time": "2-4 years",
+    "Special_Instructions": "Plant in early spring; needs full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Orange",
+    "Zones": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in spring or fall; requires full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Peach",
+    "Zones": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "February-April",
+    "Maturity_Time": "2-4 years",
+    "Special_Instructions": "Plant in early spring; prefers full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Pear",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "3-5 years",
+    "Special_Instructions": "Plant in early spring or fall; needs full sun and moist soil."
+  },
+  {
+    "Fruit": "Persimmon",
+    "Zones": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "3-5 years",
+    "Special_Instructions": "Plant in early spring; requires full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Pineapple",
+    "Zones": [
+      11,
+      12
+    ],
+    "Planting_Season": "Spring, Summer",
+    "Planting_Time": "April-August",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in spring or summer; requires warm temperatures and sandy soil."
+  },
+  {
+    "Fruit": "Plum",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "February-April",
+    "Maturity_Time": "3-5 years",
+    "Special_Instructions": "Plant in early spring; needs full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Pomegranate",
+    "Zones": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in early spring; requires full sun and drought-resistant soil."
+  },
+  {
+    "Fruit": "Prickly Pear",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "March-May",
+    "Maturity_Time": "3-4 years",
+    "Special_Instructions": "Plant in early spring; thrives in dry, sandy soil."
+  },
+  {
+    "Fruit": "Raspberry",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "1-2 years",
+    "Special_Instructions": "Plant in early spring or fall; requires full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Strawberry",
+    "Zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "4-6 months",
+    "Special_Instructions": "Plant in early spring or fall; prefers well-drained, moist soil."
+  },
+  {
+    "Fruit": "Tangerine",
+    "Zones": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring, Fall",
+    "Planting_Time": "March-April, September-October",
+    "Maturity_Time": "2-3 years",
+    "Special_Instructions": "Plant in spring or fall; needs full sun and well-drained soil."
+  },
+  {
+    "Fruit": "Watermelon",
+    "Zones": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "Planting_Season": "Spring",
+    "Planting_Time": "April-June",
+    "Maturity_Time": "70-90 days",
+    "Special_Instructions": "Plant after last frost; requires full sun and warm temperatures."
+  }
+]
