@@ -47,6 +47,7 @@ Documentation and references for the project
           - `climateZones.py` - Climate zone data DB
           - `config.py` - Env variables & settings
           - `database.py` - MongoDB connection
+          - `frostDates.py` - Frost date information DB
           - `fruits.py` - Fruit planting information DB
           - `herbs.py` - Herb planting information DB
           - `lastFrost.py` - Last frost information DB
@@ -68,14 +69,12 @@ Documentation and references for the project
     - `frontend/` - React frontend
       - `public/` - Static assets (images, etc.)
       - `src/` - Source files for the frontend
-        - `api/` - API calls (fetchData, etc.)
-          <!-- - `__init__.js` - Service initializer -->
         - `components/` - Reusable UI components (buttons, cards, etc.)
-          <!-- - `__init__.js` - Component initializer -->
+          - `__init__.js` - Component initializer
         - `pages/` - Page components (home, about, etc.)
-          <!-- - `__init__.js` - Page initializer -->
+          - `__init__.js` - Page initializer
         - `hooks/` - Custom hooks (useFetch, etc.)
-          <!-- - `__init__.js` - Hook initializer -->
+          - `__init__.js` - Hook initializer
         - `App.css` - CSS for the app
         - `App.jsx` - Main React component
         - `index.css` - Global CSS
