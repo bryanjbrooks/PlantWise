@@ -3,16 +3,16 @@
 # Notes:
 # File: geocodioClient.py
 
-import asyncio
-from fastapi import APIRouter
-from geocodio import GeocodioClient
-
 # FOR TESTING PURPOSES ONLY
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
+# Import the necessary modules
 from app.core.keys import getGeocodioKey
+import asyncio
+from fastapi import APIRouter
+from geocodio import GeocodioClient
 
 # FastAPI Router
 router = APIRouter()
@@ -71,6 +71,7 @@ async def getZipCoordinates(zipcode: str):
     }
     return locationInfo
 
+# FOR TESTING PURPOSES ONLY
 # Test the Geocodio API connection and get the coordinates of a zip code and an address
 async def main():
     add = await getAddressCoordinates("1301 Sheridan Ave, Chico CA 95926")

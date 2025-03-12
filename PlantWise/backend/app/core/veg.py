@@ -15,11 +15,6 @@ router = APIRouter()
 db = getDB("plants")
 veg = db["vegetables"]
 
-# Check if the database is connected
-@router.get("/checkDB")
-def checkPlantsDB():
-    return client.server_info()
-
 # Get all vegetables
 @router.get("/getVegetables")
 def get_vegetables():

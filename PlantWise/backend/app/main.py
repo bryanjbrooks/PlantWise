@@ -8,9 +8,9 @@ from fastapi.middleware.cors import CORSMiddleware
 # Import the routers
 from app.core.climateZones import router as climateZonesRouter
 from app.core.database import router as databaseRouter
+from app.core.frostDates import router as frostDatesRouter
 from app.core.fruits import router as fruitsRouter
 from app.core.herbs import router as herbsRouter
-from app.core.lastFrost import router as lastFrostRouter
 from app.core.veg import router as vegRouter
 from app.core.weatherHistory import router as weatherRouter
 from app.routes.geocodioClient import router as geocodioRouter
@@ -26,9 +26,9 @@ app = FastAPI(
 # Include the routers
 app.include_router(climateZonesRouter, prefix="/climateZones", tags=["Climate Zones"])
 app.include_router(databaseRouter, prefix="/database", tags=["Database"])
+app.include_router(frostDatesRouter, prefix="/frostDates", tags=["Frost Dates"])
 app.include_router(fruitsRouter, prefix="/fruits", tags=["Fruits"])
 app.include_router(herbsRouter, prefix="/herbs", tags=["Herbs"])
-app.include_router(lastFrostRouter, prefix="/lastFrost", tags=["Last Frost"])
 app.include_router(vegRouter, prefix="/veg", tags=["Vegetables"])
 app.include_router(weatherRouter, prefix="/weather", tags=["Weather"])
 app.include_router(geocodioRouter, prefix="/geocodio", tags=["Geocodio"])

@@ -1,7 +1,7 @@
 # Description: Contains the function to calculate the last frost date
 # for each year for a given location (by zip code) and to insert that data into the database.
 # Notes: Assumes weather data dates are in ISO format "YYYY-MM-DD".
-# File: lastFrost.py
+# File: frostDates.py
 
 from app.core.database import getDB
 from app.core.weatherHistory import getWeatherData
@@ -19,8 +19,7 @@ frostDB = getDB("frostDates")
 lastFrostDB = getDB("lastFrost")
 frostDatesDB = getDB("frostDates")
 
-
-@router.get("/calculateFrostDates")
+# Calculate the last spring and first fall frost dates for each year
 @router.get("/calculateFrostDates")
 def calculateFrostDates(zipCode: str):
     weatherData = getWeatherData(zipCode)
@@ -49,13 +48,13 @@ def calculateFrostDates(zipCode: str):
         lastSpringFrost = None
         for r in reversed(spring):
             if r["min"] <= 32:
-                lastSpringFrost = r["date"]
+                lastSpringFrost = datetime.strptime(r["date"], "%Y-%m-%d").strftime("%m-%d")  # Keep only MM-DD
                 break
 
         firstFallFrost = None
         for r in fall:
             if r["min"] <= 32:
-                firstFallFrost = r["date"]
+                firstFallFrost = datetime.strptime(r["date"], "%Y-%m-%d").strftime("%m-%d")  # Keep only MM-DD
                 break
 
         frostData[year] = {
@@ -79,7 +78,7 @@ def calculateFrostDates(zipCode: str):
         total, count = 0, 0
         for d in dateStrs:
             try:
-                dt = datetime.strptime(d, "%Y-%m-%d")
+                dt = datetime.strptime(d, "%m-%d")
                 total += dt.timetuple().tm_yday
                 count += 1
             except:
@@ -88,7 +87,7 @@ def calculateFrostDates(zipCode: str):
             return None
         avgDay = int(round(total / count))
         avgDate = datetime(2021, 1, 1) + timedelta(days=avgDay - 1)
-        return avgDate.strftime("%Y-%m-%d")
+        return avgDate.strftime("%m-%d")  # Only store MM-DD
 
     avgLastSpring = computeAverage(lastSpringDates)
     avgFirstFall = computeAverage(firstFallDates)
