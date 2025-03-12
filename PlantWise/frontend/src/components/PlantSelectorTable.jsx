@@ -115,12 +115,14 @@ function PlantSelectorTable() {
           placeholder="Enter ZIP code"
           className="border p-2 rounded text-black"
         />
-        <button
-          onClick={handleZoneLookup}
-          className="bg-green-600 hover:bg-green-700 text-white text-base font-semibold px-4 py-2 rounded border border-green-700 col-span-full"
-        >
-          Lookup Zone
-        </button>
+        <div className="col-span-full flex justify-center">
+          <button
+            onClick={handleZoneLookup}
+            className="bg-green-600 hover:bg-green-700 text-white text-base font-semibold px-4 py-2 rounded border border-green-700"
+          >
+            Lookup Frost Dates
+          </button>
+        </div>
         {zone && <div className="col-span-full text-center font-medium">Zone: {zone}</div>}
       </div>
 

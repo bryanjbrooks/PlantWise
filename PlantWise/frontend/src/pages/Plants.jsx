@@ -42,7 +42,7 @@ function Plants() {
             <tr className="bg-green-100">
               {plantData.length > 0 && Object.keys(plantData[0]).map((key) => (
                 <th key={key} className="px-4 py-2 border">
-                  {key}
+                  {key.replace(/_/g, ' ')}
                 </th>
               ))}
             </tr>
@@ -61,6 +61,11 @@ function Plants() {
         </table>
         {plantData.length === 0 && <p className="text-center mt-4">No data available.</p>}
       </div>
+      <footer className="mt-8 text-center text-base text-gray-600">
+        <p>Data is derived from the following sources:</p>
+        <p>The Old Farmer&apos;s Almanac</p>
+        <p>UC Master Gardener Program</p>
+      </footer>
     </div>
   )
 }

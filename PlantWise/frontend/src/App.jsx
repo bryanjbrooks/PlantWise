@@ -7,7 +7,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Plants from './pages/Plants'
 // import Geocoding from './pages/Geocoding'
-// import ClimateTools from './pages/ClimateTools'
+import ClimateTools from './pages/Climate'
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Link to="/">Home</Link>
           <Link to="/plants">Plants</Link>
           {/* <Link to="/geocoding">Geocoding</Link> */}
-          {/* <Link to="/climate">Climate Tools</Link> */}
+          <Link to="/climate">Climate</Link>
         </div>
         <div className="px-4 py-2 text-base font-bold">PlantWise</div>
       </nav>
@@ -25,7 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/plants" element={<Plants />} />
         {/* <Route path="/geocoding" element={<Geocoding />} /> */}
-        {/* <Route path="/climate" element={<ClimateTools />} /> */}
+        <Route path="/climate" element={<ClimateTools />} />
       </Routes>
     </div>
   )
