@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 
 # Import the necessary modules
 from app.core.keys import getOpenWeatherKey
-from app.core.weatherHistory import addDailyWeather, addMultipleDailyWeather
+from app.core.weatherHistory import addDailyWeather, addMultipleDailyWeather, checkWeatherCollection
 from app.core.frostDates import calculateFrostDates, getAverageFrostDates
 import asyncio
 from datetime import datetime, timedelta
@@ -46,7 +46,14 @@ async def getWeatherData(lat: float, long: float, date: str, zipCode: str):
 # Get historical weather data for a location for the past 6 full years plus the current year
 @router.get("/historicalWeather")
 async def getHistoricalWeatherData(lat: float, long: float, zipCode: str):
-    endDate = datetime.now()
+    # Check if the zip code is already in the database
+    checkZip = await run_in_threadpool(checkWeatherCollection, zipCode)
+    # If the zipcode is in the database, get the average frost dates
+    if checkZip:
+        avgFrostDates = await run_in_threadpool(getAverageFrostDates, zipCode)
+        return avgFrostDates
+    
+    endDate = datetime(2024, 12, 31)
     startDate = datetime(2019, 1, 1)
     allDates = []
 
@@ -59,7 +66,7 @@ async def getHistoricalWeatherData(lat: float, long: float, zipCode: str):
         allDates.append(currentDate.strftime("%Y-%m-%d"))
         currentDate += timedelta(days=1)
 
-    print(len(allDates))
+    print(f'Total dates: {len(allDates)}')
 
     batchSize = 5
     allResults = []
@@ -89,9 +96,9 @@ async def getHistoricalWeatherData(lat: float, long: float, zipCode: str):
 async def main():
     # print("Getting historical weather for 95926...\nThis may take a while...")
     # res = await getHistoricalWeatherData(39.746027, -121.836171, "95926")
-    print("Getting weather data for 95926 on 2025-03-11...")
-    res = await getWeatherData(39.746027, -121.836171, "2025-03-11", "95926")
-    print(res)
+    # print("Getting weather data for 95926 on 2025-03-11...")
+    # res = await getWeatherData(39.746027, -121.836171, "2025-03-11", "95926")
+    # print(res)
     res2 = calculateFrostDates("95926")
     print(f'\n{res2}')
     res3 = getAverageFrostDates("95926")

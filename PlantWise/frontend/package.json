@@ -12,8 +12,10 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
     "plantwise": "file:",
+    "prop-types": "^15.8.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
@@ -27,7 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
     "postcss": "^8.5.2",
-    "tailwindcss": "^4.0.6",
+    "tailwindcss": "^4.0.13",
     "vite": "^6.2.1"
   }
 }

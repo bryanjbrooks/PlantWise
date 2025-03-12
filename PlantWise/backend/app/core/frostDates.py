@@ -4,7 +4,7 @@
 # File: frostDates.py
 
 from app.core.database import getDB
-from app.core.weatherHistory import getWeatherData
+from app.core.weatherHistory import getWeatherData, checkWeatherCollection
 from fastapi import APIRouter
 from pymongo import MongoClient
 from datetime import datetime, timedelta
@@ -112,5 +112,11 @@ def getAverageFrostDates(zipCode: str):
     collection = frostDatesDB["average"]
     doc = collection.find_one({"_id": str(zipCode)}, {"_id": 0})
     if not doc:
-        return {"error": "No average frost data found for this location."}
+        # Check to see if there is historical data for this zip code
+        collection = checkWeatherCollection[str(zipCode)]
+        if collection:
+            calculateFrostDates(zipCode)
+            doc = collection.find_one({"_id": str(zipCode)}, {"_id": 0})
+        else:
+            return {"error": "No average frost data found for this location."}
     return doc

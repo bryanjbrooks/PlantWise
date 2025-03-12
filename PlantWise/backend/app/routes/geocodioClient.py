@@ -27,10 +27,7 @@ client = GeocodioClient(GEOCODIO_API_KEY)
 # Get the coordinates of an address
 @router.get("/address")
 async def getAddressCoordinates(address: str):
-    data = {
-        "address": address
-    }
-    location = client.geocode(data)
+    location = client.geocode(address)
     
     # Extract some of the location data so we can use it for other purposes
     locationData = {

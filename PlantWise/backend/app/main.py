@@ -1,4 +1,4 @@
-# Description: Main FastAPI application file.
+# Description: FastAPI routes for the PlantWise API.
 # Notes:
 # File: main.py
 

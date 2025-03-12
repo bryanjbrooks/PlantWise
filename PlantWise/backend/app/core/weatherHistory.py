@@ -13,11 +13,6 @@ router = APIRouter()
 # Weather Database
 weather = getDB("weatherHistory")
 
-# Check if the database is connected
-@router.get("/checkDB")
-def checkDB():
-    return client.server_info()
-
 # Check if the collection (zip code) already exists
 @router.get("/checkWeatherCollection")
 def checkWeatherCollection(zipCode: str):
