@@ -11,19 +11,17 @@ function Home() {
       <p className="text-2xl mb-2">
         Helping you make smart planting decisions based on past and future weather.
       </p>
-      <p className="text-xl mb-6">
-        Use the navigation above to view a list of all plants by type and find your climate zone
+      <p className="text-2xl mb-6">
+        Use the navigation above to view a list of all plants by type, create a custom list of plants, and find your climate zone
       </p>
-
-      <PlantSelectorTable />
-      <footer className="mt-8 text-center text-base text-gray-600">
+      {/* <footer className="mt-8 text-center text-base text-gray-600">
         <p>Data is derived from the following sources:</p> 
         <p>Geocodio</p>
         <p>OpenWeather</p>
         <p>The PRISM Climate Group at Oregon State University</p>
         <p>The Old Farmer&apos;s Almanac</p>
         <p>UC Master Gardener Program</p>
-      </footer>
+      </footer> */}
     </div>
   )
 }

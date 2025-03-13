@@ -6,6 +6,7 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Plants from './pages/Plants'
+import PlantSelector from './pages/PlantSelector'
 // import Geocoding from './pages/Geocoding'
 import ClimateTools from './pages/Climate'
 
@@ -16,6 +17,7 @@ function App() {
         <div className="flex gap-4">
           <Link to="/">Home</Link>
           <Link to="/plants">Plants</Link>
+          <Link to="/plant-selector">Plant Selector</Link>
           {/* <Link to="/geocoding">Geocoding</Link> */}
           <Link to="/climate">Climate</Link>
         </div>
@@ -24,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/plants" element={<Plants />} />
+        <Route path="/plant-selector" element={<PlantSelector />} />
         {/* <Route path="/geocoding" element={<Geocoding />} /> */}
         <Route path="/climate" element={<ClimateTools />} />
       </Routes>

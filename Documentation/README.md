@@ -71,8 +71,18 @@ Documentation and references for the project
       - `src/` - Source files for the frontend
         - `components/` - Reusable UI components (buttons, cards, etc.)
           - `__init__.js` - Component initializer
+          - `PlantMenu.jsx` - Plant menu component
+          - `PlantSelectorTable.jsx` - Plant selector table component
+          - `PlantTable.jsx` - Plant table component
+
         - `pages/` - Page components (home, about, etc.)
           - `__init__.js` - Page initializer
+          - `Climate.jsx` - Climate page
+          - `Geocoding.jsx` - Geocoding page
+          - `Home.jsx` - Home page
+          - `Plants.jsx` - Plants page
+          - `PlantSelector.jsx` - Plant selector page
+          - `Weather.jsx` - Weather page
         - `hooks/` - Custom hooks (useFetch, etc.)
           - `__init__.js` - Hook initializer
         - `App.css` - CSS for the app
@@ -82,6 +92,7 @@ Documentation and references for the project
       - `eslint.config.js` - ESLint configuration
       - `package-lock.json` - Lock file for npm packages
       - `package.json` - Node.js package configuration
+      - `tailwind.config.js` - Tailwind CSS configuration
       - `vite.config.js` - Vite configuration
     - `README.md` - README for the project
   - `.gitignore` - A list of files and directories to ignore in the repository

@@ -10,8 +10,10 @@
       10,
       11
     ],
-    "Planting_Season": "Spring",
-    "Planting_Time": "March-May",
+    "Planting_Season": ["Spring"],
+    "Planting_Time": [
+      {"Spring": ["March", "April", "May"]}
+    ],
     "Maturity_Time": "85-120 days",
     "Special_Instructions": "Start indoors in colder zones."
   },
@@ -29,8 +31,11 @@
       10,
       11
     ],
-    "Planting_Season": "Spring, Fall",
-    "Planting_Time": "March-May, September-October",
+    "Planting_Season": ["Spring", "Fall"],
+    "Planting_Time": [
+      {"Spring": ["March", "April", "May"], 
+      {"Fall": ["September", "October"]}
+    ]
     "Maturity_Time": "30-45 days",
     "Special_Instructions": "Can tolerate light frosts."
   },

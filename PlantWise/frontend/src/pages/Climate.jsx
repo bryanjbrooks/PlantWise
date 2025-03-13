@@ -39,9 +39,11 @@ function ClimateTools() {
           placeholder="Enter ZIP code"
           className="border p-2 w-full mb-4 text-lg"
         />
-        <button onClick={handleLookup} className="bg-green-600 text-white px-4 py-2 rounded text-lg">
-          Lookup Climate Info
-        </button>
+        <div className="flex justify-center mt-4">
+          <button onClick={handleLookup} className="bg-green-600 text-white px-4 py-2 rounded text-lg">
+            Lookup Climate Info
+          </button>
+        </div>
 
         <div className="text-lg text-center text-gray-600 mt-2">
           Not sure about your zone? You can also check the{' '}
