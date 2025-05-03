@@ -61,11 +61,12 @@ Documentation and references for the project
           - `database.py` - MongoDB connection
           - `frostDates.py` - Frost date information DB
           - `fruits.py` - Fruit planting information DB
+          - `futureWeather.py` - Future weather data DB
           - `herbs.py` - Herb planting information DB
           - `keys.py` - Loads the API keys from the environment variables file
-          - `lastFrost.py` - Last frost information DB
-          - `vegetables.py` - Vegetable planting information DB
-          - `weather.py` - Historical weather data DB
+          - `sources.py` - Project sources DB
+          - `veg.py` - Vegetable planting information DB
+          - `weatherHistory.py` - Historical weather data DB
         - `models/` Machine learning models
           - `__init__.py` - Python package initializer
           - `autoARIMA.py` - AutoARIMA (Autoregressive Integrated Moving Average) model
@@ -86,68 +87,106 @@ Documentation and references for the project
     - `frontend/` - React frontend
       - `public/` - Static assets (images, etc.)
         - `fruits/` - Fruit Images
+          - `Apple.jpeg` - Apple image
+          - `Apricot.jpeg` - Apricot image
+          - `Banana.jpeg` - Banana image
+          - `Blackberry.jpeg` - Blackberry image
+          - `Blood_Orange.jpeg` - Blood Orange image
+          - `Blueberry.jpeg` - Blueberry image
+          - `Boysenberry.jpeg` - Boysenberry image
+          - `Cantaloupe.jpeg` - Cantaloupe image
+          - `Cherry.jpeg` - Cherry image
+          - `Cranberry.jpeg` - Cranberry image
+          - `Currant.jpeg` - Currant image
+          - `Dragon_Fruit.jpeg` - Dragon fruit image
+          - `Elderberry.jpeg` - Elderberry image
+          - `Fig.jpeg` - Fig image
+          - `Goji_Berry.jpeg` - Goji Berry image
+          - `Gooseberry.jpeg` - Gooseberry image
+          - `Grape.jpeg` - Grape image
+          - `Grapefruit.jpeg` - Grapefruit image
+          - `Guava.jpeg` - Guava image
+          - `Honeydew.jpeg` - Honeydew image
+          - `Jackfruit.jpeg` - Jackfruit image
+          - `Kiwi.jpeg` - Kiwi image
+          - `Lemon.jpeg` - Lemon image
+          - `Lime.jpeg` - Lime image
+          - `Mango.jpeg` - Mango image
+          - `Nectarine.jpeg` - Nectarine image
+          - `Orange.jpeg` - Orange image
+          - `Peach.jpeg` - Peach image
+          - `Pear.jpeg` - Pear image
+          - `Persimmon.jpeg` - Persimmon image
+          - `Pineapple.jpeg` - Pineapple image
+          - `Plum.jpeg` - Plum image
+          - `Pomegranate.jpeg` - Pomegranate image
+          - `Prickly_Pear.jpeg` - Prickly Pear image
+          - `Raspberry.jpeg` - Raspberry image
+          - `Strawberry.jpeg` - Strawberry image
+          - `Tangerine.jpeg` - Tangerine image
+          - `Watermelon.jpeg` - Watermelon image
         - `hardinessZoneMaps/` - USDA hardiness zone maps
           - `regions/` - USDA hardiness zone maps by region
-            - `NC_reg_HS_300.png` - North Central U.S hardiness zone map
-            - `NE_reg_HS_300.png` - North East U.S hardiness zone map
-            - `NW_reg_HS_300.png` - North West U.S hardiness zone map
-            - `SC_reg_HS_300.png` - South Central U.S hardiness zone map
-            - `SE_reg_HS_300.png` - South East U.S hardiness zone map
-            - `SW_reg_HS_300.png` - South West U.S hardiness zone map
+            - `NC.png` - North Central U.S hardiness zone map
+            - `NE.png` - North East U.S hardiness zone map
+            - `NW.png` - North West U.S hardiness zone map
+            - `SC.png` - South Central U.S hardiness zone map
+            - `SE.png` - South East U.S hardiness zone map
+            - `SW.png` - South West U.S hardiness zone map
           - `states` - USDA hardiness zone maps by state
-            - `AK300.png` - Alaska hardiness zone map
-            - `AL300.png` - Alabama hardiness zone map
-            - `AR300.png` - Arkansas hardiness zone map
-            - `AZ300.png` - Arizona hardiness zone map
-            - `CA_N300.png` - Northern California hardiness zone map
-            - `CA_S300.png` - Southern California hardiness zone map
-            - `CO300.png` - Colorado hardiness zone map
-            - `CT300.png` - Connecticut hardiness zone map
-            - `DE300.png` - Delaware hardiness zone map
-            - `FL300.png` - Florida hardiness zone map
-            - `GA300.png` - Georgia hardiness zone map
-            - `HI300.png` - Hawaii hardiness zone map
-            - `IA300.png` - Iowa hardiness zone map
-            - `ID300.png` - Idaho hardiness zone map
-            - `IL300.png` - Illinois hardiness zone map
-            - `IN300.png` - Indiana hardiness zone map
-            - `KS300.png` - Kansas hardiness zone map
-            - `KY300.png` - Kentucky hardiness zone map
-            - `LA300.png` - Louisiana hardiness zone map
-            - `MA300.png` - Massachusetts hardiness zone map
-            - `MD_DC300.png` - Maryland and D.C. hardiness zone map
-            - `ME300.png` - Maine hardiness zone map
-            - `MI300.png` - Michigan hardiness zone map
-            - `MN300.png` - Minnesota hardiness zone map
-            - `MO300.png` - Missouri hardiness zone map
-            - `MS300.png` - Mississippi hardiness zone map
-            - `MT300.png` - Montana hardiness zone map
-            - `NC300.png` - North Carolina hardiness zone map
-            - `ND300.png` - North Dakota hardiness zone map
-            - `NE300.png` - Nebraska hardiness zone map
-            - `NH300.png` - New Hampshire hardiness zone map
-            - `NJ300.png` - New Jersey hardiness zone map
-            - `NM300.png` - New Mexico hardiness zone map
-            - `NV300.png` - Nevada hardiness zone map
-            - `NY300.png` - New York hardiness zone map
-            - `OH300.png` - Ohio hardiness zone map
-            - `OK300.png` - Oklahoma hardiness zone map
-            - `OR300.png` - Oregon hardiness zone map
-            - `PA300.png` - Pennsylvania hardiness zone map
-            - `PR300.png` - Puerto Rico hardiness zone map
-            - `SC300.png` - South Carolina hardiness zone map
-            - `SD300.png` - South Dakota hardiness zone map
-            - `TN300.png` - Tennessee hardiness zone map
-            - `TX_E300.png` - Eastern Texas hardiness zone map
-            - `TX_W300.png` - Western Texas hardiness zone map
-            - `UT300.png` - Utah hardiness zone map
-            - `VA300.png` - Virginia hardiness zone map
-            - `VT300.png` - Vermont hardiness zone map
-            - `WA300.png` - Washington hardiness zone map
-            - `WI300.png` - Wisconsin hardiness zone map
-            - `WV300.png` - West Virginia hardiness zone map
-            - `WY300.png` - Wyoming hardiness zone map
-          - `National_Map_HZ_36x24_300.png` - National hardiness zone map
+            - `AK.png` - Alaska hardiness zone map
+            - `AL.png` - Alabama hardiness zone map
+            - `AR.png` - Arkansas hardiness zone map
+            - `AZ.png` - Arizona hardiness zone map
+            - `CA_N.png` - Northern California hardiness zone map
+            - `CA_S.png` - Southern California hardiness zone map
+            - `CO.png` - Colorado hardiness zone map
+            - `CT.png` - Connecticut hardiness zone map
+            - `DE.png` - Delaware hardiness zone map
+            - `FL.png` - Florida hardiness zone map
+            - `GA.png` - Georgia hardiness zone map
+            - `HI.png` - Hawaii hardiness zone map
+            - `IA.png` - Iowa hardiness zone map
+            - `ID.png` - Idaho hardiness zone map
+            - `IL.png` - Illinois hardiness zone map
+            - `IN.png` - Indiana hardiness zone map
+            - `KS.png` - Kansas hardiness zone map
+            - `KY.png` - Kentucky hardiness zone map
+            - `LA.png` - Louisiana hardiness zone map
+            - `MA.png` - Massachusetts hardiness zone map
+            - `MD_DC.png` - Maryland and D.C. hardiness zone map
+            - `ME.png` - Maine hardiness zone map
+            - `MI.png` - Michigan hardiness zone map
+            - `MN.png` - Minnesota hardiness zone map
+            - `MO.png` - Missouri hardiness zone map
+            - `MS.png` - Mississippi hardiness zone map
+            - `MT.png` - Montana hardiness zone map
+            - `NC.png` - North Carolina hardiness zone map
+            - `ND.png` - North Dakota hardiness zone map
+            - `NE.png` - Nebraska hardiness zone map
+            - `NH.png` - New Hampshire hardiness zone map
+            - `NJ.png` - New Jersey hardiness zone map
+            - `NM.png` - New Mexico hardiness zone map
+            - `NV.png` - Nevada hardiness zone map
+            - `NY.png` - New York hardiness zone map
+            - `OH.png` - Ohio hardiness zone map
+            - `OK.png` - Oklahoma hardiness zone map
+            - `OR.png` - Oregon hardiness zone map
+            - `PA.png` - Pennsylvania hardiness zone map
+            - `PR.png` - Puerto Rico hardiness zone map
+            - `SC.png` - South Carolina hardiness zone map
+            - `SD.png` - South Dakota hardiness zone map
+            - `TN.png` - Tennessee hardiness zone map
+            - `TX_E.png` - Eastern Texas hardiness zone map
+            - `TX_W.png` - Western Texas hardiness zone map
+            - `UT.png` - Utah hardiness zone map
+            - `VA.png` - Virginia hardiness zone map
+            - `VT.png` - Vermont hardiness zone map
+            - `WA.png` - Washington hardiness zone map
+            - `WI.png` - Wisconsin hardiness zone map
+            - `WV.png` - West Virginia hardiness zone map
+            - `WY.png` - Wyoming hardiness zone map
+          - `National.png` - National hardiness zone map
         - `herbs/` - Herb Images
           - `Basil.jpeg` - Basil image
           - `Bay_Laurel.jpeg` - Bay Laurel image
@@ -220,20 +259,27 @@ Documentation and references for the project
       - `src/` - Source files for the frontend
         - `components/` - Reusable UI components (buttons, cards, etc.)
           - `__init__.js` - Component initializer
+          - `PlantGuide.jsx` - Plant guide component
           - `PlantMenu.jsx` - Plant menu component
           - `PlantSelectorTable.jsx` - Plant selector table component
           - `PlantTable.jsx` - Plant table component
           - `ZipSearchForm.jsx` - Zip code search form component
+        - `hooks/` - Custom hooks (useFetch, etc.)
+          - `__init__.js` - Hook initializer
         - `pages/` - Page components (home, about, etc.)
           - `__init__.js` - Page initializer
           - `Climate.jsx` - Climate page
           - `Geocoding.jsx` - Geocoding page
           - `Home.jsx` - Home page
+          - `PlantPage.jsx` - Plant page
           - `Plants.jsx` - Plants page
           - `PlantSelector.jsx` - Plant selector page
+          - `Sources.jsx` - Sources page
           - `Weather.jsx` - Weather page
-        - `hooks/` - Custom hooks (useFetch, etc.)
-          - `__init__.js` - Hook initializer
+        - `plant/` - Plant routes and utils
+          - `__init__.js` - Plant initializer
+          - `plantRoutes.js` - Plant routes
+          - `plantUtils.js` - Plant utils
         - `App.css` - CSS for the app
         - `App.jsx` - Main React component
         - `index.css` - Global CSS
