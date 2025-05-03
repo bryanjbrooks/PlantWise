@@ -1,7 +1,6 @@
 # General ignores
 .DS_Store
 Thumbs.db
-keys.py
 
 # Node.js (React frontend)
 node_modules/
@@ -26,6 +25,7 @@ __pycache__/
 *.py[cod]
 *.so
 .venv/
+.env
 env/
 Pipfile.lock
 poetry.lock
