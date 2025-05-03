@@ -1,6 +1,6 @@
 # PlantWise 🌱
-## Bryan Brooks, Computer Science
-## California State University, Chico Spring 2025 Senior Capstone Project
+## Bryan Brooks
+## Computer Science, California State University, Chico Spring 2025 Senior Capstone Project
 
 ## Description
 Web application that helps you make smart planting decisions based on past and future weather
