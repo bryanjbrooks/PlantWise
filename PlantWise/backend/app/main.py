@@ -12,10 +12,10 @@ from app.core.database import router as databaseRouter
 from app.core.frostDates import router as frostDatesRouter
 from app.core.fruits import router as fruitsRouter
 from app.core.herbs import router as herbsRouter
-from app.core.nuts import router as nutRouter
 from app.core.sources import router as sourcesRouter
 from app.core.veg import router as vegRouter
 from app.core.weatherHistory import router as weatherRouter
+from app.core.futureWeather import router as futureRouter
 from app.routes.geocodioClient import router as geocodioRouter
 from app.routes.openWeatherClient import router as openWeatherRouter
 from app.routes.visualCrossingClient import router as visualCrossingRouter
@@ -34,10 +34,9 @@ app.include_router(frostDatesRouter, prefix="/frostDates", tags=["Frost Dates"])
 app.include_router(geocodioRouter, prefix="/geocodio", tags=["Geocodio"])
 app.include_router(fruitsRouter, prefix="/fruits", tags=["Fruits"])
 app.include_router(herbsRouter, prefix="/herbs", tags=["Herbs"])
-app.include_router(nutRouter, prefix="/nuts", tags=["Nuts"])
 app.include_router(openWeatherRouter, prefix="/openWeather", tags=["OpenWeather"])
 app.include_router(sourcesRouter, prefix="/sources", tags=["Sources"])
-app.include_router(vegRouter, prefix="/veg", tags=["Vegetables"])
+app.include_router(vegRouter, prefix="/vegetables", tags=["Vegetables"])
 app.include_router(visualCrossingRouter, prefix="/visualCrossing", tags=["Visual Crossing"])
 app.include_router(weatherRouter, prefix="/weather", tags=["Weather"])
 

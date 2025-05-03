@@ -27,7 +27,9 @@ def addDailyWeather(zipCode: str, date: str, daily: dict):
 
     # Insert daily weather data
     collection = weather[zipCode]
-    return {"insertedId": str(collection.insert_one(daily).inserted_id)}
+    daily["date"] = date  # Ensure date is included
+    result = collection.insert_one(daily)
+    return {"insertedId": str(result.inserted_id)}
 
 # Add multiple days of weather data
 @router.post("/addMultipleDailyWeather")

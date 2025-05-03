@@ -13,10 +13,6 @@ from datetime import datetime, timedelta
 router = APIRouter()
 
 # Databases for spring and fall frost dates and average frost dates
-frostDB = getDB("frostDates")
-
-# Databases
-lastFrostDB = getDB("lastFrost")
 frostDatesDB = getDB("frostDates")
 
 # Calculate the last spring and first fall frost dates for each year
