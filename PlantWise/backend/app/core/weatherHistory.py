@@ -20,17 +20,13 @@ def checkWeatherCollection(zipCode: str):
 
 # Add individual daily weather data
 @router.post("/addDailyWeather")
-def addDailyWeather(zipCode: str, date: str, minTemp: float):
+def addDailyWeather(zipCode: str, date: str, daily: dict):
     # Create collection if it doesn't exist
     if not checkWeatherCollection(zipCode):
         weather.create_collection(zipCode)
 
     # Insert daily weather data
     collection = weather[zipCode]
-    daily = {
-        "date": date,
-        "min": minTemp
-    }
     return {"insertedId": str(collection.insert_one(daily).inserted_id)}
 
 # Add multiple days of weather data

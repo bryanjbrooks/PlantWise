@@ -10,3 +10,16 @@ from pymongo import MongoClient
 # FastAPI Router
 router = APIRouter()
 
+# Sources database
+db = getDB("sources")
+hz = db["hardinessZones"]
+plantImages = db["plantImages"]
+datesGuides = db["plantingDatesGuides"]
+weather = db["weather"]
+
+# Collections
+
+
+@router.get("/hardinessZones")
+def getHardinessZoneSources():
+  return 
