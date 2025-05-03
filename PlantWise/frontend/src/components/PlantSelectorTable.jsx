@@ -155,7 +155,7 @@ function PlantSelectorTable() {
 
       {frostDates && (
         <div className="text-center mb-6">
-          <p className="font-semibold">Average frost dates for {zip} using historical data from 2019–2024</p>
+          <p className="font-semibold">Average frost dates for {zip} using historical data from 1995-Present</p>
           <p>Last Spring Frost: {frostDates?.lastSpringFrost?.date ?? 'N/A'}</p>
           <p>First Fall Frost: {frostDates?.firstFallFrost?.date ?? 'N/A'}</p>
         </div>

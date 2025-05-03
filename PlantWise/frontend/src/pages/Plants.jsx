@@ -4,13 +4,15 @@
 // File: Plants.jsx
 
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import PlantTable from '../components/PlantTable'
 import PlantMenu from '../components/PlantMenu'
+
 
 const endpointMap = {
   fruits: 'fruits/getFruits',
   herbs: 'herbs/getHerbs',
-  vegetables: 'veg/getVegetables',
+  vegetables: 'vegetables/getVegetables',
 }
 
 function Plants() {
@@ -48,15 +50,11 @@ function Plants() {
         <p className="text-center mt-4">No data available.</p>
       )}
 
-      
-      <footer className="mt-8 text-center text-base text-gray-600">
-        <p>Data is derived from the following sources:</p>
-        <p>Bonnie Plants</p>
-        <p>GrowVeg Plant Growing Guides</p>
-        <p>The Old Farmer&apos;s Almanac</p>
-        <p>Urban Farmer Growing Guides</p>
-        <p>UCANR - California Master Gardener Handbook, Second Edition</p>
-        <p>UCANR - UC Master Gardener Program</p>
+      <footer className="mt-12 text-sm text-gray-500">
+        <p>Powered by data from Bonnie Plants, GrowVeg Plant Growing Guides, The Old Farmer&apos;s Almanac and more.</p>
+        <Link to="/sources" className="text-green-700 underline hover:text-green-900">
+          View all data sources →
+        </Link>
       </footer>
 
     </div>

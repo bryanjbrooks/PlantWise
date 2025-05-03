@@ -41,14 +41,14 @@ function PlantTable({ type, plants }) {
             >
               <td className="px-4 py-2 border font-semibold">{getDisplayName(plant)}</td>
               <td className="px-4 py-2 border">{plant.Zones?.join(', ')}</td>
-              <td className="px-4 py-2 border">{plant.Planting_Time_Spring?.join(', ') ?? 'No'}</td>
-              <td className="px-4 py-2 border">{plant.Planting_Time_Summer?.join(', ') ?? 'None'}</td>
-              <td className="px-4 py-2 border">{plant.Planting_Time_Fall?.join(', ') ?? 'None'}</td>
-              <td className="px-4 py-2 border">{plant.Planting_Time_Winter?.join(', ') ?? 'None'}</td>
-              <td className="px-4 py-2 border">{plant.Temperature_Range ?? 'None'}</td>
-              <td className="px-4 py-2 border">{plant.Minimum_Temperature_Tolerance ?? 'None'}</td>
-              <td className="px-4 py-2 border">{plant.Maximum_Temperature_Tolerance ?? 'None'}</td>
-              <td className="px-4 py-2 border">{plant.Frost_Sensitive === true ? "Yes" : plant.Frost_Sensitive === false ? "No" : "N/A"}</td>
+              <td className="px-4 py-2 border">{plant.Planting_Time_Spring?.join(', ') ?? 'Not in Season'}</td>
+              <td className="px-4 py-2 border">{plant.Planting_Time_Summer?.join(', ') ?? 'Not in Season'}</td>
+              <td className="px-4 py-2 border">{plant.Planting_Time_Fall?.join(', ') ?? 'Not in Season'}</td>
+              <td className="px-4 py-2 border">{plant.Planting_Time_Winter?.join(', ') ?? 'Not in Season'}</td>
+              <td className="px-4 py-2 border">{plant.Temperature_Range ?? 'No Data Available'}</td>
+              <td className="px-4 py-2 border">{plant.Minimum_Temperature_Tolerance ?? 'No Data Available'}</td>
+              <td className="px-4 py-2 border">{plant.Maximum_Temperature_Tolerance ?? 'No Data Available'}</td>
+              <td className="px-4 py-2 border">{plant.Frost_Sensitive === true ? "Yes" : plant.Frost_Sensitive === false ? "No" : "No Data Available"}</td>
             </tr>
           ))}
         </tbody>
