@@ -78,13 +78,11 @@ function PlantSelectorTable() {
       }
     } else {
       // Set the frost dates to N/A if they are not found
-
       console.log('Setting frostDates:', frostData)
       setFrostDates(frostData)
     }
   }
   
-
   const allSelected = [...fruits, ...herbs, ...vegetables].filter((plant) =>
     selectedPlants.includes(getDisplayName(plant))
   )

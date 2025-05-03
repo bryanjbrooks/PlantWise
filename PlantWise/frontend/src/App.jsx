@@ -9,6 +9,7 @@ import Plants from './pages/Plants'
 import PlantSelector from './pages/PlantSelector'
 // import Geocoding from './pages/Geocoding'
 import ClimateTools from './pages/Climate'
+import PlantPage from './pages/PlantPage' // <-- ADD this import
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         <Route path="/plant-selector" element={<PlantSelector />} />
         {/* <Route path="/geocoding" element={<Geocoding />} /> */}
         <Route path="/climate" element={<ClimateTools />} />
+        
+        {/* 🚀 New route for individual plant pages */}
+        <Route path="/plant/:type/:name" element={<PlantPage />} />
       </Routes>
     </div>
   )
