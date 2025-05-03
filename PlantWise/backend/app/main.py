@@ -6,15 +6,19 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # Import the routers
+# Import the routers
 from app.core.climateZones import router as climateZonesRouter
 from app.core.database import router as databaseRouter
 from app.core.frostDates import router as frostDatesRouter
 from app.core.fruits import router as fruitsRouter
 from app.core.herbs import router as herbsRouter
+from app.core.nuts import router as nutRouter
+from app.core.sources import router as sourcesRouter
 from app.core.veg import router as vegRouter
 from app.core.weatherHistory import router as weatherRouter
 from app.routes.geocodioClient import router as geocodioRouter
 from app.routes.openWeatherClient import router as openWeatherRouter
+from app.routes.visualCrossingClient import router as visualCrossingRouter
 
 # Create the FastAPI app
 app = FastAPI(
@@ -27,12 +31,15 @@ app = FastAPI(
 app.include_router(climateZonesRouter, prefix="/climateZones", tags=["Climate Zones"])
 app.include_router(databaseRouter, prefix="/database", tags=["Database"])
 app.include_router(frostDatesRouter, prefix="/frostDates", tags=["Frost Dates"])
+app.include_router(geocodioRouter, prefix="/geocodio", tags=["Geocodio"])
 app.include_router(fruitsRouter, prefix="/fruits", tags=["Fruits"])
 app.include_router(herbsRouter, prefix="/herbs", tags=["Herbs"])
-app.include_router(vegRouter, prefix="/veg", tags=["Vegetables"])
-app.include_router(weatherRouter, prefix="/weather", tags=["Weather"])
-app.include_router(geocodioRouter, prefix="/geocodio", tags=["Geocodio"])
+app.include_router(nutRouter, prefix="/nuts", tags=["Nuts"])
 app.include_router(openWeatherRouter, prefix="/openWeather", tags=["OpenWeather"])
+app.include_router(sourcesRouter, prefix="/sources", tags=["Sources"])
+app.include_router(vegRouter, prefix="/veg", tags=["Vegetables"])
+app.include_router(visualCrossingRouter, prefix="/visualCrossing", tags=["Visual Crossing"])
+app.include_router(weatherRouter, prefix="/weather", tags=["Weather"])
 
 # Allow requests from the Vite server during development
 app.add_middleware(
@@ -56,7 +63,3 @@ if __name__ == "__main__":
 # async def startup_event():
 #     # await store_weather_data(weather_data)
 #     print("Weather data has been fetched!")
-
-# @app.get("/")
-# async def read_root():
-#     return {"message": "FastAPI + NOAA Weather Data Example"}
