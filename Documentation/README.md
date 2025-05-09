@@ -189,7 +189,7 @@ Documentation and references for the project
           - `National.png` - National hardiness zone map
         - `herbs/` - Herb Images
           - `Basil.jpeg` - Basil image
-          - `Bay_Laurel.jpeg` - Bay Laurel image
+          - `Bay_Leaf.jpeg` - Bay Laurel image
           - `Borage.jpeg` - Borage image
           - `Chive.jpeg` - Chives image
           - `Cilantro.jpeg` - Cilantro image
@@ -199,7 +199,7 @@ Documentation and references for the project
           - `Horseradish.jpeg` - Horseradish image
           - `Lavender.jpeg` - Lavender image
           - `Lemon_Balm.jpeg` - Lemon Balm image
-          - `Lemon_Grass.jpeg` - Lemon Thyme image
+          - `Lemongrass.jpeg` - Lemon Thyme image
           - `Marjoram.jpeg` - Marjoram image
           - `Mint.jpeg` - Mint image
           - `Oregano.jpeg` - Oregano image
