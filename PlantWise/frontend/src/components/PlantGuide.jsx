@@ -3,6 +3,7 @@
 // File: PlantGuide.jsx
 
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom'
 import { getImagePath } from '../plant/utils';
 
 function PlantGuide({ plantData }) {
@@ -23,7 +24,7 @@ function PlantGuide({ plantData }) {
           <p className="text-xl italic text-gray-600 mb-6">{plantData.Scientific_Name || 'No Data Available'}</p>
 
           <section className="mb-4">
-            <h2 className="text-xl font-semibold">Zones</h2>
+            <h2 className="text-xl font-semibold">Hardiness Zones</h2>
             <p>{zones}</p>
           </section>
 
@@ -87,14 +88,14 @@ function PlantGuide({ plantData }) {
 
             <section className="mb-4">
               <h2 className="text-xl font-semibold">Pests & Disease</h2>
-              <p><strong>Pest Management:</strong> {plantData.Pest_Management || 'No Data Available'}</p>
               <p><strong>Common Pests:</strong> {formatList(plantData.Common_Pests)}</p>
-              <p><strong>Disease Management:</strong> {plantData.Disease_Management || 'No Data Available'}</p>
+              <p><strong>Pest Management:</strong> {plantData.Pest_Management || 'No Data Available'}</p>              
               <p><strong>Common Diseases:</strong> {formatList(plantData.Common_Diseases)}</p>
+              <p><strong>Disease Management:</strong> {plantData.Disease_Management || 'No Data Available'}</p>
             </section>
 
             <section className="mb-4">
-              <h2 className="text-xl font-semibold">Companions & Regions</h2>
+              <h2 className="text-xl font-semibold">Companions & Tips</h2>
               <p><strong>Companion Plants:</strong> {formatList(plantData.Companion_Plants)}</p>
               <p><strong>Regional Tips:</strong></p>
               <ul className="list-disc ml-5">
@@ -111,6 +112,12 @@ function PlantGuide({ plantData }) {
           </div>
         </div>
       </div>
+      <footer className="mt-10 text-sm text-center text-gray-500">
+      <p>Powered by data from Bonnie Plants, GrowVeg Plant Growing Guides, The Old Farmer&apos;s Almanac and more.</p>
+        <Link to="/sources" className="text-green-700 underline hover:text-green-900">
+          → View all data sources 
+        </Link>
+      </footer>
     </div>
   );
 }

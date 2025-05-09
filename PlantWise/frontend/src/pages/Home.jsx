@@ -31,10 +31,10 @@ function Home() {
         </Link>
       </div>
 
-      <footer className="mt-12 text-sm text-gray-500">
+      <footer className="mt-12 text-sm text-center text-gray-500">
         <p>Powered by data from Geocodio, OpenWeather, Visual Crossing, PRISM Climate Group, and more.</p>
         <Link to="/sources" className="text-green-700 underline hover:text-green-900">
-          View all data sources →
+          → View all data sources
         </Link>
       </footer>
     </div>

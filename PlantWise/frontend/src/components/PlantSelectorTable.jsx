@@ -73,6 +73,12 @@ function PlantSelectorTable() {
     fetchAll()
   }, [])
 
+  // Clear zone and frost dates when address, city, or zip changes
+  useEffect(() => {
+  setZone('')
+  setFrostDates(null)
+}, [address, city, zip])
+
   const toggleSelection = (plantName) => {
     setSelectedPlants((prev) =>
       prev.includes(plantName)
@@ -114,7 +120,7 @@ function PlantSelectorTable() {
       const coordsRes = await fetch(`http://localhost:8000/geocodio/zipcode?zipcode=${resolvedZip}`)
       const coords = await coordsRes.json()
 
-      await fetch(`http://localhost:8000/openWeather/historicalWeather?lat=${coords.latitude}&long=${coords.longitude}&zipCode=${resolvedZip}`)
+      await fetch(`http://localhost:8000/visualCrossing/historicalWeather?lat=${coords.latitude}&long=${coords.longitude}&zipCode=${resolvedZip}`)
 
       frostRes = await fetch(`http://localhost:8000/frostDates/getAverageFrostDates?zipCode=${resolvedZip}`)
       frostData = await frostRes.json()

@@ -183,10 +183,10 @@ function ClimateTools() {
         </div>
       </div>
 
-      <footer className="mt-12 text-sm text-gray-500">
-        <p>Powered by data PRISM Climate Group, and USDA Agricultural Research Service.</p>
+      <footer className="mt-12 text-sm text-center text-gray-500">
+        <p>Powered by data from the PRISM Climate Group and USDA Agricultural Research Service</p>
         <Link to="/sources" className="text-green-700 underline hover:text-green-900">
-          View all data sources →
+          → View all data sources
         </Link>
       </footer>
     </div>

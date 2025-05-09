@@ -23,7 +23,7 @@ function App() {
           {/* <Link to="/geocoding">Geocoding</Link> */}
           <Link to="/climate">Climate</Link>
         </div>
-        <div className="px-4 py-2 text-base font-bold">PlantWise</div>
+        <div className="px-4 py-2 text-base font-bold">PlantWise 🌱</div>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
