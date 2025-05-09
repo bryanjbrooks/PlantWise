@@ -109,7 +109,7 @@ def getAverageFrostDates(zipCode: str):
     doc = collection.find_one({"_id": str(zipCode)}, {"_id": 0})
     if not doc:
         # Check to see if there is historical data for this zip code
-        collection = checkWeatherCollection[str(zipCode)]
+        collection = checkWeatherCollection(str(zipCode))
         if collection:
             calculateFrostDates(zipCode)
             doc = collection.find_one({"_id": str(zipCode)}, {"_id": 0})

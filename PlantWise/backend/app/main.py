@@ -23,7 +23,7 @@ from app.routes.visualCrossingClient import router as visualCrossingRouter
 # Create the FastAPI app
 app = FastAPI(
     title="PlantWise API",
-    description="API for the PlantWise Project, handling climate zones, weather data, and planting times for fruits, herbs and vegetables.",
+    description="API for the PlantWise Project, handling database, climate zones, weather data, and planting guides and times for fruits, herbs and vegetables.",
     version="1.0.0"
 )
 
@@ -43,7 +43,11 @@ app.include_router(weatherRouter, prefix="/weather", tags=["Weather"])
 # Allow requests from the Vite server during development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:8000",  # <— add this
+        "http://localhost:8000"   # <— and this if testing from localhost
+        ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -52,7 +56,10 @@ app.add_middleware(
 # Root route
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the PlantWise API!"}
+    return {"message": "Welcome to the PlantWise API!",
+            "description": "API for the PlantWise Project",
+            "features": "Handles database, climate zones, historical and future weather data, and planting guide and time routes for fruits, herbs and vegetables."
+            }
 
 if __name__ == "__main__":
     import uvicorn

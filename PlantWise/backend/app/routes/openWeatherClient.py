@@ -100,8 +100,8 @@ async def main():
     # elapsed = time.time() - start
     # print(res)
     # print(f"Execution time: {elapsed:.2f} seconds")
-    # # print("Getting weather data for 95926 on 2025-03-11...")
-    # # res = await getWeatherData(39.746027, -121.836171, "2025-03-11", "95926")
+    # print("Getting weather data for 95926 on 2025-03-11...")
+    # res = await getWeatherData(39.746027, -121.836171, "2025-03-11", "95926")
     # print(res)
     res2 = calculateFrostDates("95926")
     print(f'\n{res2}')
