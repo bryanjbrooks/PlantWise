@@ -11,7 +11,7 @@ function Home() {
     <div className="pt-12 w-full text-center">
       <h1 className="text-4xl font-bold mb-2 text-green-700">Welcome to PlantWise 🌱</h1>
       <p className="text-xl text-gray-700 mb-6 max-w-2xl mx-auto">
-        Make smart planting decisions with personalized guides powered by real climate data and historical weather.
+        Helping you make smart planting decisions based on historical and future weather
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-10">

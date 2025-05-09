@@ -53,13 +53,13 @@ function ClimateTools() {
 
       {zone && (
         <div className="mt-6 bg-gray-100 p-6 rounded shadow">
-          <h3 className="font-bold mb-4 text-2xl">USDA Hardiness Zone</h3>
-          <p className="text-xl">
+          <h3 className="font-bold mb-4 text-2xl text-center">USDA Hardiness Zone</h3>
+          <p className="text-xl text-center">
             Your ZIP code <span className="font-semibold">{zip}</span> is in zone{' '}
             <span className="font-bold text-green-700">{zone}</span>.
           </p>
           {trange && (
-            <p className="text-lg mt-2">
+            <p className="text-lg text-center mt-2">
               This zone typically experiences minimum winter temperatures ranging from <span className="font-semibold">{trange}&deg;F</span>.
             </p>
           )}
