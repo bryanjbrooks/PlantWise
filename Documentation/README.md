@@ -36,10 +36,11 @@ Documentation and references for the project
     - `Lists/` - Contains lists of climate zones and plants used in the database
       - `ClimateZones/` - Lists of climate zones by zip code from the PRISM Climate Group at Oregon State University
         - `ak_zipcode_2023.csv` - List of Alaska zip codes and their climate zones in csv format
-        - `climate_zones_by_2023_zip.csv` - Combined list of Alaska, Hawaii, Puerto Rico, and continental US zip codes and their climate zones
+        - `climate_zones_by_2023_zip.csv` - Combined list of Alaska, Hawaii, Puerto Rico, and continental US zip codes and their climate zones in csv format
         - `hi_zipcode_2023.csv` - List of Hawaii zip codes and their climate zones in csv format
-        - `pr_zipcode_2023.csv` - List of Puerto Rico zip codes and their climate zones
-        - `us_zipcode_2023.csv` - List of continental US zip codes and their climate zones
+        - `pr_zipcode_2023.csv` - List of Puerto Rico zip codes and their climate zones in csv format
+        - `us_zipcode_2023.csv` - List of continental US zip codes and their climate zones in csv format
+        - `USClimateZones.json` - List of all US (AK, HI, PR, continental US) zip codes and their climate zones in json format
       - `Plants/` - Contains JSON lists of planting times for various plants and their climate zones
         - `fruit_planting_guides.json` - List of fruits and their planting guides
         - `herb_planting_guides.json` - List of herbs and their planting guides
@@ -68,7 +69,7 @@ Documentation and references for the project
           - `weatherHistory.py` - Historical weather data DB
         - `models/` Machine learning models
           - `__init__.py` - Python package initializer
-          - `autoARIMA.py` - AutoARIMA (Autoregressive Integrated Moving Average) model
+          - `autoARIMA.py` - AutoARIMA (Automatic Autoregressive Integrated Moving Average) model
           - `linearRegression.py` - Linear regression model
           - `N-BEATS.py` - N-BEATS (Neural Basis Expansion Analysis Time Series Forecasting) model
           - `TBAST.py` - TBATS (Trigonometric, Box-Cox, ARMA (Autoregressive Moving Average) Errors Trend, Seasonal Components) model

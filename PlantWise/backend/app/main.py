@@ -6,10 +6,10 @@ from fastapi import FastAPI, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 
 # Import the routers
-# Import the routers
 from app.core.climateZones import router as climateZonesRouter
 from app.core.database import router as databaseRouter
 from app.core.frostDates import router as frostDatesRouter
+from app.core.futureWeather import router as futureWeatherRouter
 from app.core.fruits import router as fruitsRouter
 from app.core.herbs import router as herbsRouter
 from app.core.sources import router as sourcesRouter
@@ -36,6 +36,7 @@ apiRouter = APIRouter(prefix="/api")
 apiRouter.include_router(climateZonesRouter, prefix="/climateZones", tags=["Climate Zones"])
 apiRouter.include_router(databaseRouter, prefix="/database", tags=["Database"])
 apiRouter.include_router(frostDatesRouter, prefix="/frostDates", tags=["Frost Dates"])
+apiRouter.include_router(futureWeatherRouter, prefix="/futureWeather", tags=["Future Weather"])
 apiRouter.include_router(geocodioRouter, prefix="/geocodio", tags=["Geocodio"])
 apiRouter.include_router(fruitsRouter, prefix="/fruits", tags=["Fruits"])
 apiRouter.include_router(herbsRouter, prefix="/herbs", tags=["Herbs"])
