@@ -109,7 +109,7 @@ function PlantSelectorTable() {
 
     const zoneRes = await fetch(`/api/climateZones/getZone?zip=${resolvedZip}`)
     const zoneData = await zoneRes.json()
-    setZone(zoneData.zone || '')
+    setZone((zoneData.zone || '').replace(/[^\d]/g, ''))
 
     let frostRes = await fetch(`/api/frostDates/getAverageFrostDates?zipCode=${resolvedZip}`)
     let frostData = await frostRes.json()
