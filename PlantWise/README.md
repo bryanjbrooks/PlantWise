@@ -31,3 +31,7 @@
   - Average frost dates and 
   - Sources and attribution for all plant data and imagery  
   - Other supporting metadata used throughout the application
+
+---### 🌐 Hosting
+- **DigitalOcean** – Cloud infrastructure provider hosting the FastAPI backend and React frontend
+- **MongoDB Atlas** – Managed cloud database service for MongoDB, hosting the PlantWise database

@@ -18,7 +18,7 @@ function ClimateTools() {
     setLoading(true)
 
     try {
-      const zoneRes = await fetch(`http://localhost:8000/climateZones/getZone?zip=${zip}`)
+      const zoneRes = await fetch(`/api/climateZones/getZone?zip=${zip}`)
       const zoneData = await zoneRes.json()
       setZone(zoneData.zone || "Zone not found")
       setTrange(zoneData.trange || null)

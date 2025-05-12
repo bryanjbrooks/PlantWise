@@ -3,7 +3,15 @@
 ## Computer Science, California State University, Chico Spring 2025 Senior Capstone Project
 
 ## Description
-Web application that helps you make smart planting decisions based on past and future weather
+PlantWise is a full-stack web application designed to help gardeners — both beginners and experts — make informed planting decisions based on real-time and historical weather data.
+
+The application integrates external climate APIs and a custom plant database to deliver personalized planting calendars and growth recommendations based on location and plant type for Alaska, Hawaii, Puerto Rico, and the contiguous United States.
+
+## Hosting
+- [PlantWise Frontend](https://plantwise.cc)
+- [PlantWise API](https://plantwise.cc/api/docs)
+- [PlantWise MongoDB Atlas Cluster]()
+
 ---
 ### Current Features
 - Planting guides for:

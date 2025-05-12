@@ -2,7 +2,7 @@
 # Notes:
 # File: main.py
 
-from fastapi import FastAPI
+from fastapi import FastAPI, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 
 # Import the routers
@@ -24,29 +24,39 @@ from app.routes.visualCrossingClient import router as visualCrossingRouter
 app = FastAPI(
     title="PlantWise API",
     description="API for the PlantWise Project, handling database, climate zones, weather data, and planting guides and times for fruits, herbs and vegetables.",
-    version="1.0.0"
+    version="1.0.0",
+    # Put the schema and docs under /api instead of root
+    openapi_url="/api/openapi.json",
+    docs_url="/api/docs",
+    redoc_url="/api/redoc",
 )
 
 # Include the routers
-app.include_router(climateZonesRouter, prefix="/climateZones", tags=["Climate Zones"])
-app.include_router(databaseRouter, prefix="/database", tags=["Database"])
-app.include_router(frostDatesRouter, prefix="/frostDates", tags=["Frost Dates"])
-app.include_router(geocodioRouter, prefix="/geocodio", tags=["Geocodio"])
-app.include_router(fruitsRouter, prefix="/fruits", tags=["Fruits"])
-app.include_router(herbsRouter, prefix="/herbs", tags=["Herbs"])
-app.include_router(openWeatherRouter, prefix="/openWeather", tags=["OpenWeather"])
-app.include_router(sourcesRouter, prefix="/sources", tags=["Sources"])
-app.include_router(vegRouter, prefix="/vegetables", tags=["Vegetables"])
-app.include_router(visualCrossingRouter, prefix="/visualCrossing", tags=["Visual Crossing"])
-app.include_router(weatherRouter, prefix="/weather", tags=["Weather"])
+apiRouter = APIRouter(prefix="/api")
+apiRouter.include_router(climateZonesRouter, prefix="/climateZones", tags=["Climate Zones"])
+apiRouter.include_router(databaseRouter, prefix="/database", tags=["Database"])
+apiRouter.include_router(frostDatesRouter, prefix="/frostDates", tags=["Frost Dates"])
+apiRouter.include_router(geocodioRouter, prefix="/geocodio", tags=["Geocodio"])
+apiRouter.include_router(fruitsRouter, prefix="/fruits", tags=["Fruits"])
+apiRouter.include_router(herbsRouter, prefix="/herbs", tags=["Herbs"])
+apiRouter.include_router(openWeatherRouter, prefix="/openWeather", tags=["OpenWeather"])
+apiRouter.include_router(sourcesRouter, prefix="/sources", tags=["Sources"])
+apiRouter.include_router(vegRouter, prefix="/vegetables", tags=["Vegetables"])
+apiRouter.include_router(visualCrossingRouter, prefix="/visualCrossing", tags=["Visual Crossing"])
+apiRouter.include_router(weatherRouter, prefix="/weather", tags=["Weather"])
+
+# Mount the /api router
+app.include_router(apiRouter)
 
 # Allow requests from the Vite server during development
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:8000",  # <— add this
-        "http://localhost:8000"   # <— and this if testing from localhost
+        "https://plantwise.cc"
+        "https://www.plantwise.cc"
+        "http://localhost:5173",  # Vite dev server
+        "http://127.0.0.1:8000",  # FastAPI local testing
+        "http://localhost:8000"
         ],
     allow_credentials=True,
     allow_methods=["*"],

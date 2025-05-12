@@ -6,8 +6,8 @@ import { useEffect, useState } from 'react';
 const tabNames = ['Hardiness Zone Maps', 'Plant Images', 'Planting Dates & Guides', 'Weather'];
 
 const herbNames = [
-  "basil", "bay laurel", "borage", "chive", "cilantro", "dill", "fennel", "ginger", "horseradish",
-  "lavender", "lemon balm", "lemon grass", "marjoram", "mint", "oregano", "parsley", "rosemary",
+  "basil", "bay leaf", "borage", "chive", "cilantro", "dill", "fennel", "ginger", "horseradish",
+  "lavender", "lemon balm", "lemongrass", "marjoram", "mint", "oregano", "parsley", "rosemary",
   "sage", "tarragon", "thyme"
 ];
 
@@ -33,15 +33,15 @@ function Sources() {
     async function fetchAllSources() {
       try {
         const endpoints = {
-          'Hardiness Zone Maps': '/sources/hardinessZones',
-          'Plant Images': '/sources/plantImages',
-          'Planting Dates & Guides': '/sources/plantingDatesGuides',
-          'Weather': '/sources/weather'
+          'Hardiness Zone Maps': 'sources/hardinessZones',
+          'Plant Images': 'sources/plantImages',
+          'Planting Dates & Guides': 'sources/plantingDatesGuides',
+          'Weather': 'sources/weather'
         };
 
         const fetches = await Promise.all(
           Object.entries(endpoints).map(async ([key, url]) => {
-            const res = await fetch(`http://localhost:8000${url}`);
+            const res = await fetch(`/api/${url}`);
             const data = await res.json();
             return [key, data];
           })

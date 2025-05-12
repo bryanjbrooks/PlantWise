@@ -21,7 +21,7 @@ function Geocoding() {
       param = zipcode
     }
 
-    const res = await fetch(`http://localhost:8000/geocodio/${endpoint}?${type}=${encodeURIComponent(param)}`)
+    const res = await fetch(`http://localhost:8000/api/geocodio/${endpoint}?${type}=${encodeURIComponent(param)}`)
     const data = await res.json()
     setResult(data)
   }

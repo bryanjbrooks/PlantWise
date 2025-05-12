@@ -4,11 +4,11 @@ export function getPlantEndpoint(type, name) {
   const safeName = encodeURIComponent(name);
   switch (type) {
     case 'fruit':
-      return `/fruits/getFruit?name=${safeName}`;
+      return `/api/fruits/getFruit?name=${safeName}`;
     case 'vegetable':
-      return `/veg/getVegetable?name=${safeName}`;
+      return `/api/vegetables/getVegetable?name=${safeName}`;
     case 'herb':
-      return `/herbs/getHerb?name=${safeName}`;
+      return `/api/herbs/getHerb?name=${safeName}`;
     default:
       throw new Error(`Unknown plant type: ${type}`);
   }

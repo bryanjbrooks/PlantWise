@@ -22,7 +22,7 @@ function Plants() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch(`http://localhost:8000/${endpointMap[plantType]}`)
+        const res = await fetch(`/api/${endpointMap[plantType]}`)
         const data = await res.json()
         if (Array.isArray(data)) {
           setPlantData(data)

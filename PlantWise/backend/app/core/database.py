@@ -10,7 +10,7 @@ from pymongo import MongoClient
 router = APIRouter()
 
 # MongoDB Connection
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_URI = os.getenv("MONGO_URI")
 client = MongoClient(MONGO_URI)
 
 # Returns a database object by name

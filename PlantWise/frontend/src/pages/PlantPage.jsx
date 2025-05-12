@@ -21,7 +21,7 @@ function PlantPage() {
           nuts: 'getNut'
         };
 
-        const endpoint = `http://localhost:8000/${type}/${routeMap[type]}?name=${encodeURIComponent(name)}`;
+        const endpoint = `/api/${type}/${routeMap[type]}?name=${encodeURIComponent(name)}`;
         console.log('🔍 Fetching from:', endpoint);
 
         const res = await fetch(endpoint);

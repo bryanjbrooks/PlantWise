@@ -59,7 +59,7 @@ function PlantSelectorTable() {
   useEffect(() => {
     async function fetchAll() {
       const fetchGroup = async (type, url) => {
-        const res = await fetch(`http://localhost:8000/${url}`)
+        const res = await fetch(`/api/${url}`)
         const data = await res.json()
         const list = Array.isArray(data) ? data : Object.values(data).find(v => Array.isArray(v)) || []
         return list.map(item => ({ ...item, _type: type }))
@@ -95,11 +95,11 @@ function PlantSelectorTable() {
     let resolvedZip = zip
 
     if (!resolvedZip && address) {
-      const res = await fetch(`http://localhost:8000/geocodio/address?address=${encodeURIComponent(address)}`)
+      const res = await fetch(`/api/geocodio/address?address=${encodeURIComponent(address)}`)
       const data = await res.json()
       resolvedZip = data.zipcode || ''
     } else if (!resolvedZip && city) {
-      const res = await fetch(`http://localhost:8000/geocodio/city?city=${encodeURIComponent(city)}`)
+      const res = await fetch(`/api/geocodio/city?city=${encodeURIComponent(city)}`)
       const data = await res.json()
       resolvedZip = data.zipcode || ''
     }
@@ -107,22 +107,22 @@ function PlantSelectorTable() {
     if (!resolvedZip) return alert("Could not resolve ZIP code from input")
     setZip(resolvedZip)
 
-    const zoneRes = await fetch(`http://localhost:8000/climateZones/getZone?zip=${resolvedZip}`)
+    const zoneRes = await fetch(`/api/climateZones/getZone?zip=${resolvedZip}`)
     const zoneData = await zoneRes.json()
-    setZone((zoneData.zone || '').replace(/[^\d]/g, ''))
+    setZone(zoneData.zone || '')
 
-    let frostRes = await fetch(`http://localhost:8000/frostDates/getAverageFrostDates?zipCode=${resolvedZip}`)
+    let frostRes = await fetch(`/api/frostDates/getAverageFrostDates?zipCode=${resolvedZip}`)
     let frostData = await frostRes.json()
 
     if (frostData?.error || !frostData?.lastSpringFrost) {
       alert("No frost dates found. Fetching historical weather to calculate...")
 
-      const coordsRes = await fetch(`http://localhost:8000/geocodio/zipcode?zipcode=${resolvedZip}`)
+      const coordsRes = await fetch(`/api/geocodio/zipcode?zipcode=${resolvedZip}`)
       const coords = await coordsRes.json()
 
-      await fetch(`http://localhost:8000/visualCrossing/historicalWeather?lat=${coords.latitude}&long=${coords.longitude}&zipCode=${resolvedZip}`)
+      await fetch(`/api/visualCrossing/historicalWeather?lat=${coords.latitude}&long=${coords.longitude}&zipCode=${resolvedZip}`)
 
-      frostRes = await fetch(`http://localhost:8000/frostDates/getAverageFrostDates?zipCode=${resolvedZip}`)
+      frostRes = await fetch(`/api/frostDates/getAverageFrostDates?zipCode=${resolvedZip}`)
       frostData = await frostRes.json()
     }
 
