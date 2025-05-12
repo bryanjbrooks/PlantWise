@@ -1,0 +1,2712 @@
+[{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b7e"
+  },
+  "Fruit": "Apple",
+  "Scientific_Name": "Malus domestica",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–8 years depending on rootstock",
+  "Germination_Time": "60–90 days (requires cold stratification)",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "32°F to 90°F",
+  "Minimum_Temperature_Tolerance": "-30°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun (minimum 8 hours daily)",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "1 inch per week; more during dry periods",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring; avoid over-fertilizing",
+  "Pruning_Needs": "Annual pruning in late winter or early spring",
+  "Soil_Type": "Well-drained loamy soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for common pests; use integrated pest management strategies",
+  "Disease_Management": "Regular inspection; remove and destroy infected plant parts",
+  "Common_Pests": [
+    "Codling moth",
+    "Aphids",
+    "Apple maggot"
+  ],
+  "Common_Diseases": [
+    "Apple scab",
+    "Fire blight",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Requires cross-pollination with a compatible variety",
+  "Spacing_Between_Plants": "15–20 feet (standard); 4–8 feet (dwarf)",
+  "Spacing_Between_Rows": "20–25 feet (standard); 10–15 feet (dwarf)",
+  "Companion_Plants": [
+    "Chives",
+    "Garlic",
+    "Marigold",
+    "Nasturtium"
+  ],
+  "Regional_Tips": {
+    "Zones 3-4": "Choose extra-hardy varieties like 'Haralson' or 'Honeycrisp'; prune in late winter and protect young trees from winter sunscald.",
+    "Zones 5-6": "Most standard varieties grow well; ensure 600–900 chill hours and protect blossoms from late spring frosts.",
+    "Zones 7-8": "Use low-chill varieties like 'Anna' or 'Dorsett Golden'; thin aggressively and monitor for fire blight and summer heat stress.",
+    "Zones 9": "Only plant tropical varieties with low chill requirements; irrigate during dry periods and provide partial shade to prevent sunburn."
+  },
+  "Special_Instructions": "Thin fruit to one per cluster to improve size and quality; mulch to retain soil moisture."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b7f"
+  },
+  "Fruit": "Apricot",
+  "Scientific_Name": "Prunus armeniaca",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "February",
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–4 years",
+  "Germination_Time": "14–21 days (with cold stratification)",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "32°F to 85°F",
+  "Minimum_Temperature_Tolerance": "25°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering weekly",
+  "Fertilizer_Needs": "Balanced fertilizer early spring",
+  "Pruning_Needs": "Prune in late winter to early spring",
+  "Soil_Type": "Well-drained sandy or loamy soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for borers and aphids",
+  "Disease_Management": "Prevent bacterial canker with proper care",
+  "Common_Pests": [
+    "Aphids",
+    "Borers",
+    "Spider mites"
+  ],
+  "Common_Diseases": [
+    "Bacterial canker",
+    "Brown rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating, but better with cross-pollination",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "20–25 feet",
+  "Companion_Plants": [
+    "Lavender",
+    "Chives"
+  ],
+  "Regional_Tips": {
+    "Zone 8": "Plant in late winter for early fruiting."
+  },
+  "Special_Instructions": "Protect early blooms from late frosts."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b80"
+  },
+  "Fruit": "Banana",
+  "Scientific_Name": "Musa spp.",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": [
+    "May",
+    "June",
+    "July"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "9–12 months",
+  "Germination_Time": "14–28 days (if seed grown; typically propagated by suckers)",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 90°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun to partial shade",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "High; keep soil consistently moist",
+  "Fertilizer_Needs": "High nitrogen fertilizer monthly",
+  "Pruning_Needs": "Remove dead leaves and old pseudostems",
+  "Soil_Type": "Rich, well-drained soil",
+  "Soil_pH": "5.5–7.0",
+  "Pest_Management": "Monitor for nematodes and weevils",
+  "Disease_Management": "Prevent Panama disease and Sigatoka leaf spot",
+  "Common_Pests": [
+    "Banana weevil",
+    "Nematodes"
+  ],
+  "Common_Diseases": [
+    "Panama disease",
+    "Black Sigatoka"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Not required for fruiting (parthenocarpic)",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Sweet potatoes",
+    "Taro"
+  ],
+  "Regional_Tips": {
+    "Zone 9": "Mulch heavily in winter to protect roots."
+  },
+  "Special_Instructions": "Shelter from strong winds; heavy feeders."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b81"
+  },
+  "Fruit": "Blackberry",
+  "Scientific_Name": "Rubus fruticosus",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "October",
+    "November"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "1-2 years",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°–85°F",
+  "Minimum_Temperature_Tolerance": "-20°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full Sun",
+  "Watering_Needs": "Moderate; keep soil evenly moist",
+  "Fertilizer_Needs": "Apply balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune after fruiting; remove old canes",
+  "Soil_Type": "Well-drained, loamy soil",
+  "Soil_pH": "5.5–7.0",
+  "Pest_Management": "Use mulch and remove weeds to prevent insect harborage; netting can deter birds",
+  "Disease_Management": "Ensure good air circulation to prevent fungal diseases; rotate crops",
+  "Common_Pests": [
+    "Aphids",
+    "Spider mites",
+    "Japanese beetles"
+  ],
+  "Common_Diseases": [
+    "Anthracnose",
+    "Botrytis fruit rot",
+    "Cane blight"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-fertile but benefits from bee activity",
+  "Spacing_Between_Plants": "3-5 feet",
+  "Spacing_Between_Rows": "8-10 feet",
+  "Companion_Plants": [
+    "Lavender",
+    "Chives",
+    "Nasturtium"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Use mulch to protect roots from winter cold.",
+    "Zone_9": "Provide afternoon shade to reduce heat stress."
+  },
+  "Special_Instructions": "Plant in early spring or fall; needs well-drained, fertile soil."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b82"
+  },
+  "Fruit": "Blueberry",
+  "Scientific_Name": "Vaccinium corymbosum",
+  "Zones": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "14–30 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "August",
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "50°F to 85°F",
+  "Minimum_Temperature_Tolerance": "-20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun to partial shade",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "High; keep soil moist",
+  "Fertilizer_Needs": "Acidic fertilizer in early spring",
+  "Pruning_Needs": "Prune after harvest to improve yield",
+  "Soil_Type": "Acidic, well-drained soil",
+  "Soil_pH": "4.5–5.5",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Prevent fungal diseases by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Cercospora leaf spot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating but better with cross-pollination",
+  "Spacing_Between_Plants": "18–24 inches",
+  "Spacing_Between_Rows": "3–4 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Garlic",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 4": "Cover plants with burlap in winter for extra frost protection."
+  },
+  "Special_Instructions": "Use mulch to conserve moisture and prevent weeds."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b83"
+  },
+  "Fruit": "Blood Orange",
+  "Scientific_Name": "Citrus sinensis",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "55°F to 85°F",
+  "Minimum_Temperature_Tolerance": "30°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering; deep soakings during dry periods",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and spider mites",
+  "Disease_Management": "Prevent fungal diseases with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Spider mites",
+    "Whiteflies"
+  ],
+  "Common_Diseases": [
+    "Citrus canker",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Fertilize with slow-release fertilizer in early spring."
+  },
+  "Special_Instructions": "Apply mulch to retain moisture and protect the roots."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b84"
+  },
+  "Fruit": "Boysenberry",
+  "Scientific_Name": "Rubus ursinus",
+  "Zones": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "February",
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "1–2 years",
+  "Germination_Time": "14–28 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 80°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun to partial shade",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to early spring",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids and mites",
+  "Disease_Management": "Prevent rust with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Mites",
+    "Japanese beetles"
+  ],
+  "Common_Diseases": [
+    "Rust",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "3–4 feet",
+  "Spacing_Between_Rows": "5–6 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 6": "Mulch to protect roots in winter."
+  },
+  "Special_Instructions": "Prune to encourage air circulation."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b85"
+  },
+  "Fruit": "Cantaloupe",
+  "Scientific_Name": "Cucumis melo",
+  "Zones": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "70-90 days",
+  "Germination_Time": "7–10 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 85°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Remove dead leaves",
+  "Soil_Type": "Well-drained sandy soil",
+  "Soil_pH": "6.0–6.5",
+  "Pest_Management": "Monitor for aphids and cucumber beetles",
+  "Disease_Management": "Prevent mildew by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Cucumber beetles",
+    "Squash bugs"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Downy mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Requires cross-pollination",
+  "Spacing_Between_Plants": "12–18 inches",
+  "Spacing_Between_Rows": "5–6 feet",
+  "Companion_Plants": [
+    "Sunflowers",
+    "Corn",
+    "Radishes"
+  ],
+  "Regional_Tips": {
+    "Zone 5": "Start seeds indoors 3–4 weeks before the last frost."
+  },
+  "Special_Instructions": "Plant after last frost; requires warm temperatures and full sun."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b86"
+  },
+  "Fruit": "Cherry",
+  "Scientific_Name": "Prunus avium",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": true,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": [
+    "February"
+  ],
+  "Maturity_Time": "3–5 years",
+  "Germination_Time": "14–21 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "30°F",
+  "Maximum_Temperature_Tolerance": "85°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering during dry spells",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids, caterpillars, and cherry maggots",
+  "Disease_Management": "Prevent fungal infections with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars",
+    "Cherry maggot"
+  ],
+  "Common_Diseases": [
+    "Cherry leaf spot",
+    "Black knot disease"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating, but better with cross-pollination",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "20–25 feet",
+  "Companion_Plants": [
+    "Garlic",
+    "Chives",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 6": "Cover trees during late frosts to protect blossoms."
+  },
+  "Special_Instructions": "Protect trees from heavy winds to prevent damage."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b87"
+  },
+  "Fruit": "Cranberry",
+  "Scientific_Name": "Vaccinium macrocarpon",
+  "Zones": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "3–4 years",
+  "Germination_Time": "30–60 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": null,
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "50°F to 80°F",
+  "Minimum_Temperature_Tolerance": "15°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "High; requires consistent moisture",
+  "Fertilizer_Needs": "Acidic fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter or early spring",
+  "Soil_Type": "Peaty, acidic soil",
+  "Soil_pH": "4.5–5.5",
+  "Pest_Management": "Monitor for aphids and cranberry weevils",
+  "Disease_Management": "Control fungal diseases by providing good airflow",
+  "Common_Pests": [
+    "Aphids",
+    "Cranberry weevil"
+  ],
+  "Common_Diseases": [
+    "Cranberry fruit rot",
+    "Phytophthora root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating, but better with cross-pollination",
+  "Spacing_Between_Plants": "18–24 inches",
+  "Spacing_Between_Rows": "3–4 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone 4": "Provide extra mulch in winter to protect the plants."
+  },
+  "Special_Instructions": "Flood the bed during the harvest season for easier berry collection."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b88"
+  },
+  "Fruit": "Currant",
+  "Scientific_Name": "Ribes uva-crispa",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "30–45 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": null,
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "10°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun to partial shade",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate",
+  "Fertilizer_Needs": "Balanced fertilizer in spring",
+  "Pruning_Needs": "Prune in late winter to early spring",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids and Japanese beetles",
+  "Disease_Management": "Prevent rust with proper care",
+  "Common_Pests": [
+    "Aphids",
+    "Japanese beetles"
+  ],
+  "Common_Diseases": [
+    "Rust",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "3–4 feet",
+  "Spacing_Between_Rows": "5–6 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Garlic",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 5": "Mulch heavily to protect from winter frost."
+  },
+  "Special_Instructions": "Prune regularly for better air circulation and higher yield."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b89"
+  },
+  "Fruit": "Dragon Fruit",
+  "Scientific_Name": "Hylocereus undatus",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "1–2 years",
+  "Germination_Time": "14–28 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "65°F to 85°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep soakings during dry spells",
+  "Fertilizer_Needs": "High phosphorus fertilizer during growing season",
+  "Pruning_Needs": "Prune regularly to control growth and remove dead stems",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "5.5–7.0",
+  "Pest_Management": "Monitor for aphids and mealybugs",
+  "Disease_Management": "Prevent root rot by ensuring good drainage",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs"
+  ],
+  "Common_Diseases": [
+    "Root rot",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Requires cross-pollination",
+  "Spacing_Between_Plants": "6–8 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Sweet potatoes",
+    "Corn",
+    "Beans"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Protect from wind by planting near a wall or trellis."
+  },
+  "Special_Instructions": "Needs a sturdy trellis for support."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b8a"
+  },
+  "Fruit": "Elderberry",
+  "Scientific_Name": "Sambucus",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "30–60 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "50°F to 80°F",
+  "Minimum_Temperature_Tolerance": "-20°F",
+  "Maximum_Temperature_Tolerance": "85°F",
+  "Light_Requirements": "Full sun to partial shade",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "High; requires regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in spring",
+  "Pruning_Needs": "Prune annually in late winter",
+  "Soil_Type": "Well-drained, moist soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Prevent fungal diseases by spacing plants well",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Cercospora leaf spot",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "5–8 feet",
+  "Spacing_Between_Rows": "8–10 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone 4": "Cover plants during winter to protect buds from frost."
+  },
+  "Special_Instructions": "Flood the bed during the harvest season for easier berry collection."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b8b"
+  },
+  "Fruit": "Fig",
+  "Scientific_Name": "Ficus carica",
+  "Zones": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "7–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 85°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering during dry spells",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead growth",
+  "Soil_Type": "Well-drained, loamy soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids, whiteflies, and spider mites",
+  "Disease_Management": "Prevent root rot with good drainage",
+  "Common_Pests": [
+    "Aphids",
+    "Whiteflies",
+    "Spider mites"
+  ],
+  "Common_Diseases": [
+    "Root rot",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "10–15 feet",
+  "Spacing_Between_Rows": "10–15 feet",
+  "Companion_Plants": [
+    "Marigolds",
+    "Lavender",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 6": "Protect from heavy winter frost by mulching the base."
+  },
+  "Special_Instructions": "Plant in full sun for the best fruit production."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b8c"
+  },
+  "Fruit": "Goji Berry",
+  "Scientific_Name": "Lycium barbarum",
+  "Zones": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "14–21 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "0°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; drought-tolerant once established",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to early spring",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.5–8.0",
+  "Pest_Management": "Monitor for aphids and whiteflies",
+  "Disease_Management": "Prevent fungal diseases by ensuring good airflow",
+  "Common_Pests": [
+    "Aphids",
+    "Whiteflies"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "4–6 feet",
+  "Spacing_Between_Rows": "6–8 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Garlic",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone 8": "Mulch heavily to protect roots in winter."
+  },
+  "Special_Instructions": "Plant in well-drained soil and avoid over-watering."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b8d"
+  },
+  "Fruit": "Gooseberry",
+  "Scientific_Name": "Ribes uva-crispa",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "30–45 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": null,
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "10°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun to partial shade",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate",
+  "Fertilizer_Needs": "Balanced fertilizer in spring",
+  "Pruning_Needs": "Prune in late winter to early spring",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids and Japanese beetles",
+  "Disease_Management": "Prevent rust with proper care",
+  "Common_Pests": [
+    "Aphids",
+    "Japanese beetles"
+  ],
+  "Common_Diseases": [
+    "Rust",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "3–4 feet",
+  "Spacing_Between_Rows": "5–6 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Garlic",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 5": "Mulch heavily to protect from winter frost."
+  },
+  "Special_Instructions": "Prune regularly for better air circulation and higher yield."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b8e"
+  },
+  "Fruit": "Grape",
+  "Scientific_Name": "Vitis vinifera",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "10°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune annually in late winter",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "5.5–7.0",
+  "Pest_Management": "Monitor for aphids, mealybugs, and scale",
+  "Disease_Management": "Prevent fungal infections with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs",
+    "Scale"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Downy mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating or cross-pollinating",
+  "Spacing_Between_Plants": "6–8 feet",
+  "Spacing_Between_Rows": "8–10 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Garlic",
+    "Dill"
+  ],
+  "Regional_Tips": {
+    "Zone 6": "Protect vines from late spring frosts with covers."
+  },
+  "Special_Instructions": "Train vines on a trellis for better airflow and easier harvesting."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b8f"
+  },
+  "Fruit": "Grapefruit",
+  "Scientific_Name": "Citrus × paradisi",
+  "Zones": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "30°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids, mealybugs, and scale",
+  "Disease_Management": "Prevent fungal infections with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs",
+    "Scale"
+  ],
+  "Common_Diseases": [
+    "Citrus canker",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Fertilize with slow-release fertilizer in early spring."
+  },
+  "Special_Instructions": "Apply mulch to retain moisture and protect the roots."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b90"
+  },
+  "Fruit": "Guava",
+  "Scientific_Name": "Psidium guajava",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–4 years",
+  "Germination_Time": "14–28 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to early spring",
+  "Soil_Type": "Well-drained, fertile soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and mealybugs",
+  "Disease_Management": "Prevent root rot by providing good drainage",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs"
+  ],
+  "Common_Diseases": [
+    "Root rot",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "6–8 feet",
+  "Spacing_Between_Rows": "10 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Protect from strong winds and frost."
+  },
+  "Special_Instructions": "Plant in well-drained, sandy soil for best fruiting."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b91"
+  },
+  "Fruit": "Honeydew",
+  "Scientific_Name": "Cucumis melo",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "80–90 days",
+  "Germination_Time": "7–10 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 85°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Remove dead leaves",
+  "Soil_Type": "Well-drained sandy soil",
+  "Soil_pH": "6.0–6.5",
+  "Pest_Management": "Monitor for aphids and cucumber beetles",
+  "Disease_Management": "Prevent mildew by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Cucumber beetles",
+    "Squash bugs"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Downy mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Requires cross-pollination",
+  "Spacing_Between_Plants": "12–18 inches",
+  "Spacing_Between_Rows": "5–6 feet",
+  "Companion_Plants": [
+    "Sunflowers",
+    "Corn",
+    "Radishes"
+  ],
+  "Regional_Tips": {
+    "Zone 5": "Start seeds indoors 3–4 weeks before the last frost."
+  },
+  "Special_Instructions": "Plant after last frost; requires warm temperatures and full sun."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b92"
+  },
+  "Fruit": "Jackfruit",
+  "Scientific_Name": "Artocarpus heterophyllus",
+  "Zones": [
+    10,
+    11,
+    12
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "3–5 years",
+  "Germination_Time": "14–21 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "75°F to 95°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; keep soil moist",
+  "Fertilizer_Needs": "High potassium fertilizer",
+  "Pruning_Needs": "Prune to control shape and size",
+  "Soil_Type": "Well-drained, fertile soil",
+  "Soil_pH": "5.5–7.0",
+  "Pest_Management": "Monitor for aphids and mealybugs",
+  "Disease_Management": "Prevent fungal diseases by ensuring good airflow",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "20 feet",
+  "Companion_Plants": [
+    "Sweet potatoes",
+    "Taro",
+    "Coriander"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Protect from wind by planting near a wall or trellis."
+  },
+  "Special_Instructions": "Needs a tropical climate and a large planting area."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b93"
+  },
+  "Fruit": "Kiwi",
+  "Scientific_Name": "Actinidia deliciosa",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "3–5 years",
+  "Germination_Time": "14–28 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 80°F",
+  "Minimum_Temperature_Tolerance": "10°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune to control growth",
+  "Soil_Type": "Well-drained, fertile soil",
+  "Soil_pH": "5.5–7.0",
+  "Pest_Management": "Monitor for aphids and spider mites",
+  "Disease_Management": "Prevent fungal diseases by ensuring good airflow",
+  "Common_Pests": [
+    "Aphids",
+    "Spider mites"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Requires male and female plants for cross-pollination",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "12–15 feet",
+  "Companion_Plants": [
+    "Garlic",
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 6": "Protect plants during winter with burlap wraps."
+  },
+  "Special_Instructions": "Needs a sturdy trellis for climbing."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b94"
+  },
+  "Fruit": "Lemon",
+  "Scientific_Name": "Citrus limon",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "30°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering during dry spells",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids, scale, and mealybugs",
+  "Disease_Management": "Prevent fungal infections with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Scale",
+    "Mealybugs"
+  ],
+  "Common_Diseases": [
+    "Citrus canker",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Fertilize with slow-release fertilizer in early spring."
+  },
+  "Special_Instructions": "Apply mulch to retain moisture and protect the roots."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b95"
+  },
+  "Fruit": "Lime",
+  "Scientific_Name": "Citrus aurantiifolia",
+  "Zones": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "30°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering during dry spells",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids, scale, and mealybugs",
+  "Disease_Management": "Prevent fungal infections with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Scale",
+    "Mealybugs"
+  ],
+  "Common_Diseases": [
+    "Citrus canker",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Fertilize with slow-release fertilizer in early spring."
+  },
+  "Special_Instructions": "Apply mulch to retain moisture and protect the roots."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b96"
+  },
+  "Fruit": "Mango",
+  "Scientific_Name": "Mangifera indica",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "3–5 years",
+  "Germination_Time": "14–28 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 95°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep soakings during dry periods",
+  "Fertilizer_Needs": "Balanced fertilizer in spring",
+  "Pruning_Needs": "Prune to remove dead wood",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "5.5–7.5",
+  "Pest_Management": "Monitor for aphids, mealybugs, and scale",
+  "Disease_Management": "Prevent root rot and leaf spot with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs",
+    "Scale"
+  ],
+  "Common_Diseases": [
+    "Leaf spot",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "15–20 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Protect trees from wind and frost during winter."
+  },
+  "Special_Instructions": "Requires a large space and tropical conditions."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b97"
+  },
+  "Fruit": "Nectarine",
+  "Scientific_Name": "Prunus persica var. nucipersica",
+  "Zones": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": true,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": [
+    "February"
+  ],
+  "Maturity_Time": "2–4 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune annually in late winter",
+  "Soil_Type": "Well-drained, loamy soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Prevent fungal infections by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Leaf curl",
+    "Brown rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating, but better with cross-pollination",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "20 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 8": "Protect blossoms from late frosts with frost blankets."
+  },
+  "Special_Instructions": "Prune to improve air circulation."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b98"
+  },
+  "Fruit": "Orange",
+  "Scientific_Name": "Citrus sinensis",
+  "Zones": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "55°F to 85°F",
+  "Minimum_Temperature_Tolerance": "30°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained, fertile soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and mealybugs",
+  "Disease_Management": "Prevent fungal diseases with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs",
+    "Scale"
+  ],
+  "Common_Diseases": [
+    "Citrus canker",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Fertilize with slow-release fertilizer in early spring."
+  },
+  "Special_Instructions": "Apply mulch to retain moisture and protect the roots."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b99"
+  },
+  "Fruit": "Peach",
+  "Scientific_Name": "Prunus persica",
+  "Zones": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": true,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": [
+    "February"
+  ],
+  "Maturity_Time": "3–4 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune annually in late winter",
+  "Soil_Type": "Well-drained, loamy soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Prevent fungal infections by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Leaf curl",
+    "Brown rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating, but better with cross-pollination",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "20 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 8": "Protect blossoms from late frosts with frost blankets."
+  },
+  "Special_Instructions": "Prune to improve air circulation."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b9a"
+  },
+  "Fruit": "Pear",
+  "Scientific_Name": "Pyrus",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "3–5 years",
+  "Germination_Time": "30–60 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": null,
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "50°F to 75°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids, caterpillars, and scale",
+  "Disease_Management": "Prevent fungal infections by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars",
+    "Scale"
+  ],
+  "Common_Diseases": [
+    "Citrus canker",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating, but better with cross-pollination",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "20 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 8": "Protect blossoms from late frosts with frost blankets."
+  },
+  "Special_Instructions": "Prune to improve air circulation."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b9b"
+  },
+  "Fruit": "Persimmon",
+  "Scientific_Name": "Diospyros",
+  "Zones": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "30–60 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun to partial shade",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering during dry spells",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained, loamy soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Prevent fungal infections by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Leaf spot",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "20 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 8": "Protect blossoms from late frosts with frost blankets."
+  },
+  "Special_Instructions": "Prune to improve air circulation and fruit production."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b9c"
+  },
+  "Fruit": "Pineapple",
+  "Scientific_Name": "Ananas comosus",
+  "Zones": [
+    10,
+    11,
+    12
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "14–21 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "75°F to 95°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; requires regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer during growing season",
+  "Pruning_Needs": "Remove dead leaves",
+  "Soil_Type": "Sandy, well-drained soil",
+  "Soil_pH": "5.5–6.5",
+  "Pest_Management": "Monitor for scale and aphids",
+  "Disease_Management": "Prevent rot with good drainage",
+  "Common_Pests": [
+    "Scale",
+    "Aphids",
+    "Mealybugs"
+  ],
+  "Common_Diseases": [
+    "Root rot",
+    "Leaf spot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Not required for fruiting (parthenocarpic)",
+  "Spacing_Between_Plants": "12–18 inches",
+  "Spacing_Between_Rows": "3–5 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Protect from cold by covering with plastic during winter."
+  },
+  "Special_Instructions": "Needs a tropical or subtropical climate and plenty of space."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b9d"
+  },
+  "Fruit": "Plum",
+  "Scientific_Name": "Prunus domestica",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": true,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": [
+    "February"
+  ],
+  "Maturity_Time": "2–4 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; deep watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune annually in late winter",
+  "Soil_Type": "Well-drained, loamy soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Prevent fungal infections by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Leaf curl",
+    "Brown rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating, but better with cross-pollination",
+  "Spacing_Between_Plants": "15–20 feet",
+  "Spacing_Between_Rows": "20 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone 8": "Protect blossoms from late frosts with frost blankets."
+  },
+  "Special_Instructions": "Prune to improve air circulation."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b9e"
+  },
+  "Fruit": "Pomegranate",
+  "Scientific_Name": "Punica granatum",
+  "Zones": [
+    8,
+    9,
+    10
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "14–28 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 85°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate; drought-tolerant once established",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and mealybugs",
+  "Disease_Management": "Prevent root rot with good drainage",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs"
+  ],
+  "Common_Diseases": [
+    "Root rot",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Mulch heavily to protect the roots during winter."
+  },
+  "Special_Instructions": "Requires a warm, dry climate for best fruiting."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8b9f"
+  },
+  "Fruit": "Prickly Pear",
+  "Scientific_Name": "Opuntia spp.",
+  "Zones": [
+    8,
+    9,
+    10
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "14–21 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "65°F to 95°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "100°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Low water requirement; drought tolerant",
+  "Fertilizer_Needs": "Low to moderate fertilizer",
+  "Pruning_Needs": "Minimal pruning required",
+  "Soil_Type": "Well-drained sandy soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for scale insects and aphids",
+  "Disease_Management": "Prevent fungal infections with proper drainage",
+  "Common_Pests": [
+    "Scale insects",
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Cactus rust",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Requires cross-pollination",
+  "Spacing_Between_Plants": "4–6 feet",
+  "Spacing_Between_Rows": "6–8 feet",
+  "Companion_Plants": [
+    "Thyme",
+    "Lavender"
+  ],
+  "Regional_Tips": {
+    "Zone 9": "Plant in a well-drained location with full sun."
+  },
+  "Special_Instructions": "Protect from frost and heavy rainfall."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8ba0"
+  },
+  "Fruit": "Raspberry",
+  "Scientific_Name": "Rubus idaeus",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "1–2 years",
+  "Germination_Time": "14–28 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "August",
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun to partial shade",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Moderate",
+  "Fertilizer_Needs": "Balanced fertilizer in spring",
+  "Pruning_Needs": "Prune in late winter to early spring",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Prevent rust with proper care",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Rust",
+    "Powdery mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "3–4 feet",
+  "Spacing_Between_Rows": "5–6 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Garlic",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 5": "Mulch heavily to protect from winter frost."
+  },
+  "Special_Instructions": "Prune regularly for better air circulation and higher yield."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8ba1"
+  },
+  "Fruit": "Strawberry",
+  "Scientific_Name": "Fragaria × ananassa",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "1 year",
+  "Germination_Time": "14–21 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 80°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Remove dead leaves and runners",
+  "Soil_Type": "Well-drained, loamy soil",
+  "Soil_pH": "5.5–6.5",
+  "Pest_Management": "Monitor for aphids and slugs",
+  "Disease_Management": "Prevent fungal diseases with proper care",
+  "Common_Pests": [
+    "Aphids",
+    "Slugs"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Gray mold"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12–18 inches",
+  "Spacing_Between_Rows": "2–3 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Garlic",
+    "Onions"
+  ],
+  "Regional_Tips": {
+    "Zone 6": "Mulch with straw to keep berries clean and reduce weeds."
+  },
+  "Special_Instructions": "Remove runners to focus energy on fruit production."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8ba2"
+  },
+  "Fruit": "Tangerine",
+  "Scientific_Name": "Citrus reticulata",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2–3 years",
+  "Germination_Time": "10–14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "55°F to 85°F",
+  "Minimum_Temperature_Tolerance": "30°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Prune in late winter to remove dead wood",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids, mealybugs, and scale",
+  "Disease_Management": "Prevent fungal infections with proper spacing",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs",
+    "Scale"
+  ],
+  "Common_Diseases": [
+    "Citrus canker",
+    "Root rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "8–10 feet",
+  "Spacing_Between_Rows": "10–12 feet",
+  "Companion_Plants": [
+    "Chives",
+    "Marigolds",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone 10": "Fertilize with slow-release fertilizer in early spring."
+  },
+  "Special_Instructions": "Apply mulch to retain moisture and protect the roots."
+},
+{
+  "_id": {
+    "$oid": "68157af5c449ff36a71c8ba3"
+  },
+  "Fruit": "Watermelon",
+  "Scientific_Name": "Citrullus lanatus",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "70–90 days",
+  "Germination_Time": "7–10 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 85°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full sun",
+  "Sun_Exposure": "Full sun",
+  "Watering_Needs": "Regular watering",
+  "Fertilizer_Needs": "Balanced fertilizer in early spring",
+  "Pruning_Needs": "Remove dead leaves",
+  "Soil_Type": "Well-drained sandy soil",
+  "Soil_pH": "6.0–6.8",
+  "Pest_Management": "Monitor for aphids and cucumber beetles",
+  "Disease_Management": "Prevent mildew by spacing plants",
+  "Common_Pests": [
+    "Aphids",
+    "Cucumber beetles",
+    "Squash bugs"
+  ],
+  "Common_Diseases": [
+    "Powdery mildew",
+    "Downy mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Requires cross-pollination",
+  "Spacing_Between_Plants": "12–18 inches",
+  "Spacing_Between_Rows": "5–6 feet",
+  "Companion_Plants": [
+    "Sunflowers",
+    "Corn",
+    "Radishes"
+  ],
+  "Regional_Tips": {
+    "Zone 5": "Start seeds indoors 3–4 weeks before the last frost."
+  },
+  "Special_Instructions": "Plant after last frost; requires warm temperatures and full sun."
+}]

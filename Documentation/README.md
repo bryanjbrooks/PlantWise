@@ -41,10 +41,9 @@ Documentation and references for the project
         - `pr_zipcode_2023.csv` - List of Puerto Rico zip codes and their climate zones
         - `us_zipcode_2023.csv` - List of continental US zip codes and their climate zones
       - `Plants/` - Contains JSON lists of planting times for various plants and their climate zones
-        - `fruit_planting_times.json` - List of fruits and their planting times by climate zones
-        - `herb_planting_times.json` - List of herbs and their planting times by climate zones
-        - `nut_planting_times.json` - List of nuts and their planting times by climate zones
-        - `vegetable_planting_times.json` - List of vegetables and their planting times by climate zones
+        - `fruit_planting_guides.json` - List of fruits and their planting guides
+        - `herb_planting_guides.json` - List of herbs and their planting guides
+        - `vegetable_planting_guides.json` - List of vegetables and their planting guides
       - `Sources/` - Contains the sources used for the various plants
         - `fruit_sources.json` - List of sources for fruits and their planting times
         - `herb_sources.json` - List of sources for herbs and their planting times
@@ -300,12 +299,18 @@ According to the terms and conditions of the various licenses, the following ref
 - [Licenses](LICENSES.md)
 
 
-## 3. Languages & Tools Used
+## 3. Languages & Tools
+- [Darts](https://unit8co.github.io/darts/)
+- [Geocodio API](https://www.geocod.io/)
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [MongoDB](https://www.mongodb.com/)
+- [OpenWeather API](https://openweathermap.org/api)
+- [Node.js](https://nodejs.org/)
 - [Python](https://www.python.org/)
 - [React](https://react.dev/)
 - [Vite](https://vite.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Visual Crossing API](https://www.visualcrossing.com/weather-api)
 
 
 ## 4. Modules & Libraries

@@ -1,0 +1,1451 @@
+[{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8ba5"
+  },
+  "Herb": "Basil",
+  "Scientific_Name": "Ocimum basilicum",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "60-90 days",
+  "Germination_Time": "5-10 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 90°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6–8 hours of direct sunlight daily",
+  "Watering_Needs": "Keep soil consistently moist but not waterlogged",
+  "Fertilizer_Needs": "Light monthly feeding with balanced fertilizer",
+  "Pruning_Needs": "Pinch tops regularly to promote bushy growth",
+  "Soil_Type": "Rich, well-drained soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids, Japanese beetles, and slugs; apply insecticidal soap if needed",
+  "Disease_Management": "Avoid overhead watering to prevent downy mildew and fusarium wilt",
+  "Common_Pests": [
+    "Aphids",
+    "Japanese Beetles",
+    "Slugs"
+  ],
+  "Common_Diseases": [
+    "Downy Mildew",
+    "Fusarium Wilt"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating; attracts bees",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Peppers",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Start indoors 6–8 weeks before last frost.",
+    "Zone_9": "Direct sow outdoors after last frost."
+  },
+  "Special_Instructions": "Plant after last frost; requires full sun and warm temperatures."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8ba6"
+  },
+  "Herb": "Bay Leaf",
+  "Scientific_Name": "Laurus nobilis",
+  "Zones": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "2-3 years",
+  "Germination_Time": "10-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "65°F to 85°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of direct sunlight",
+  "Watering_Needs": "Allow top inch of soil to dry between waterings",
+  "Fertilizer_Needs": "Feed with balanced fertilizer every spring",
+  "Pruning_Needs": "Prune to shape and control size",
+  "Soil_Type": "Well-drained, fertile soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for scale and aphids; treat with horticultural oil",
+  "Disease_Management": "Ensure good air circulation to prevent fungal diseases",
+  "Common_Pests": [
+    "Scale",
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Leaf Spot",
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Wind-pollinated; flowers are not essential for leaf harvest",
+  "Spacing_Between_Plants": "3-5 feet (for shrubs); 15 feet (for trees)",
+  "Spacing_Between_Rows": "",
+  "Companion_Plants": null,
+  "Regional_Tips": {
+    "Zone_8": "Provide winter protection if temperatures fall below 20°F.",
+    "Zone_10": "Can grow outdoors year-round."
+  },
+  "Special_Instructions": "Plant in a sheltered spot to protect from harsh winds."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8ba7"
+  },
+  "Herb": "Borage",
+  "Scientific_Name": "Borago officinalis",
+  "Zones": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "60-80 days",
+  "Germination_Time": "5-15 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 80°F",
+  "Minimum_Temperature_Tolerance": "40°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water regularly; drought-tolerant once established",
+  "Fertilizer_Needs": "Minimal fertilization; compost at planting is sufficient",
+  "Pruning_Needs": "Deadhead to encourage more blooms",
+  "Soil_Type": "Well-drained soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Generally pest-free; monitor for caterpillars",
+  "Disease_Management": "Avoid overwatering to prevent root rot",
+  "Common_Pests": [
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Attracts bees and other pollinators",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Strawberries",
+    "Cabbage"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Direct sow outdoors after last frost.",
+    "Zone_9": "Grow as a warm-season annual."
+  },
+  "Special_Instructions": "Self-seeds readily; deadhead to control spread."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8ba8"
+  },
+  "Herb": "Chive",
+  "Scientific_Name": "Allium schoenoprasum",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "60-90 days",
+  "Germination_Time": "7-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "August"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "55°F to 75°F",
+  "Minimum_Temperature_Tolerance": "40°F",
+  "Maximum_Temperature_Tolerance": "85°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6–8 hours of sunlight daily",
+  "Watering_Needs": "Water regularly; prefers moist soil",
+  "Fertilizer_Needs": "Light fertilization in early spring",
+  "Pruning_Needs": "Trim regularly to encourage growth",
+  "Soil_Type": "Well-drained, fertile soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Generally pest-free; monitor for aphids",
+  "Disease_Management": "Ensure good airflow to prevent fungal diseases",
+  "Common_Pests": [
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Downy Mildew"
+  ],
+  "Frost_Sensitive": false,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "6-12 inches",
+  "Spacing_Between_Rows": "12-18 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Carrots",
+    "Beets"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Direct sow outdoors after last frost.",
+    "Zone_9": "Grows well in containers and pots."
+  },
+  "Special_Instructions": "Prefers cooler temperatures; can be grown in partial shade."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8ba9"
+  },
+  "Herb": "Cilantro",
+  "Scientific_Name": "Coriandrum sativum",
+  "Zones": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "45-70 days",
+  "Germination_Time": "7-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "50°F to 85°F",
+  "Minimum_Temperature_Tolerance": "40°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight",
+  "Watering_Needs": "Keep soil moist, but not soggy",
+  "Fertilizer_Needs": "Light monthly fertilization with balanced fertilizer",
+  "Pruning_Needs": "Pinch back to encourage more growth",
+  "Soil_Type": "Well-drained, loose soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Avoid overwatering to prevent root rot",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Powdery Mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "6-12 inches",
+  "Spacing_Between_Rows": "12-18 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Cabbage",
+    "Spinach"
+  ],
+  "Regional_Tips": {
+    "Zone_4": "Start indoors 3-4 weeks before the last frost.",
+    "Zone_9": "Direct sow outdoors after the last frost."
+  },
+  "Special_Instructions": "Prefers cooler weather; bolt quickly in hot weather."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8baa"
+  },
+  "Herb": "Dill",
+  "Scientific_Name": "Anethum graveolens",
+  "Zones": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "40-60 days",
+  "Germination_Time": "7-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 70°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "85°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water regularly, keeping the soil moist",
+  "Fertilizer_Needs": "Minimal fertilization, prefers poor soil",
+  "Pruning_Needs": "Remove flower heads to prevent bolting",
+  "Soil_Type": "Well-drained, sandy soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and caterpillars",
+  "Disease_Management": "Ensure good airflow to prevent fungal diseases",
+  "Common_Pests": [
+    "Aphids",
+    "Caterpillars"
+  ],
+  "Common_Diseases": [
+    "Downy Mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Cabbage",
+    "Tomatoes",
+    "Lettuce"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Start indoors 3-4 weeks before last frost.",
+    "Zone_9": "Direct sow outdoors in late spring."
+  },
+  "Special_Instructions": "Prefers cooler weather; doesn't grow well in extreme heat."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bab"
+  },
+  "Herb": "Fennel",
+  "Scientific_Name": "Foeniculum vulgare",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "80-90 days",
+  "Germination_Time": "7-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "85°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water regularly, keeping soil moist",
+  "Fertilizer_Needs": "Light feeding with balanced fertilizer",
+  "Pruning_Needs": "Remove flowers to encourage better bulb growth",
+  "Soil_Type": "Well-drained, slightly acidic soil",
+  "Soil_pH": "6.0–6.5",
+  "Pest_Management": "Generally pest-free; monitor for aphids",
+  "Disease_Management": "Ensure well-drained soil to prevent root rot",
+  "Common_Pests": [
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Cabbage"
+  ],
+  "Regional_Tips": {
+    "Zone_6": "Direct sow outdoors after last frost.",
+    "Zone_9": "Grows well in containers."
+  },
+  "Special_Instructions": "Prefers dry conditions; do not overwater."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bac"
+  },
+  "Herb": "Ginger",
+  "Scientific_Name": "Zingiber officinale",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": [
+    "June"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "8-10 months",
+  "Germination_Time": "2-3 weeks",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "August",
+    "September"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 85°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Partial Shade",
+  "Sun_Exposure": "3-6 hours of sunlight daily",
+  "Watering_Needs": "Keep soil moist but not waterlogged",
+  "Fertilizer_Needs": "Feed with a balanced fertilizer every month",
+  "Pruning_Needs": "Remove dead foliage; do not disturb roots until ready for harvest",
+  "Soil_Type": "Loamy, well-drained soil",
+  "Soil_pH": "5.5–6.5",
+  "Pest_Management": "Monitor for aphids and root rot",
+  "Disease_Management": "Avoid waterlogging; ensure good drainage",
+  "Common_Pests": [
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12 inches",
+  "Spacing_Between_Rows": "18 inches",
+  "Companion_Plants": [
+    "Lemongrass",
+    "Marigolds"
+  ],
+  "Regional_Tips": {
+    "Zone_9": "Can be grown year-round in tropical climates.",
+    "Zone_10": "Best grown indoors during winter."
+  },
+  "Special_Instructions": "Requires warm, humid conditions to thrive."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bad"
+  },
+  "Herb": "Horseradish",
+  "Scientific_Name": "Armoracia rusticana",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "12-24 months",
+  "Germination_Time": "10-14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "August",
+    "September"
+  ],
+  "Harvest_Time_Fall": [
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "45°F to 75°F",
+  "Minimum_Temperature_Tolerance": "30°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water regularly, especially during dry periods",
+  "Fertilizer_Needs": "Fertilize with compost in early spring",
+  "Pruning_Needs": "Cut back dead foliage in late fall or early spring",
+  "Soil_Type": "Loamy, well-drained soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for root weevil and aphids",
+  "Disease_Management": "Ensure good soil drainage to prevent root rot",
+  "Common_Pests": [
+    "Root Weevil",
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "24 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Cabbage"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Plant early in spring for best growth.",
+    "Zone_7": "Avoid wet soil to prevent root rot."
+  },
+  "Special_Instructions": "Plant horseradish in a large container or confined area to prevent it from spreading uncontrollably."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bae"
+  },
+  "Herb": "Lavender",
+  "Scientific_Name": "Lavandula angustifolia",
+  "Zones": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "1-2 years",
+  "Germination_Time": "14-28 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "August"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Low once established; drought-tolerant",
+  "Fertilizer_Needs": "Minimal feeding; prefers poor soil",
+  "Pruning_Needs": "Annual pruning to maintain shape",
+  "Soil_Type": "Sandy, well-drained soil",
+  "Soil_pH": "6.5–7.5",
+  "Pest_Management": "Generally pest-free; monitor for spittlebugs",
+  "Disease_Management": "Ensure good air circulation to prevent fungal diseases",
+  "Common_Pests": [
+    "Spittlebugs"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "18-24 inches",
+  "Spacing_Between_Rows": "24-36 inches",
+  "Companion_Plants": [
+    "Rosemary",
+    "Sage",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone_6": "Provide winter protection with mulch.",
+    "Zone_9": "Thrives outdoors year-round."
+  },
+  "Special_Instructions": "Avoid overwatering; thrives on neglect."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8baf"
+  },
+  "Herb": "Lemon Balm",
+  "Scientific_Name": "Melissa officinalis",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": [
+    "May"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "70-90 days",
+  "Germination_Time": "7-10 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "August",
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 80°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "85°F",
+  "Light_Requirements": "Full Sun to Part Shade",
+  "Sun_Exposure": "4-6 hours of sunlight daily",
+  "Watering_Needs": "Water regularly, but not overwater",
+  "Fertilizer_Needs": "Occasional feeding with compost",
+  "Pruning_Needs": "Prune regularly to promote bushy growth",
+  "Soil_Type": "Well-drained, moist soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Generally pest-free; monitor for aphids",
+  "Disease_Management": "Ensure good air circulation to prevent fungal diseases",
+  "Common_Pests": [
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Powdery Mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Peppers",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone_6": "Direct sow outdoors after last frost.",
+    "Zone_9": "Can be grown indoors during winter."
+  },
+  "Special_Instructions": "Prefers moist, well-drained soil; attracts pollinators."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb0"
+  },
+  "Herb": "Lemongrass",
+  "Scientific_Name": "Cymbopogon citratus",
+  "Zones": [
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": [
+    "June"
+  ],
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "90-120 days",
+  "Germination_Time": "10-14 days",
+  "Harvest_Time_Spring": null,
+  "Harvest_Time_Summer": [
+    "August",
+    "September"
+  ],
+  "Harvest_Time_Fall": null,
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "70°F to 85°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Keep soil moist but well-drained",
+  "Fertilizer_Needs": "Fertilize every 4-6 weeks with balanced fertilizer",
+  "Pruning_Needs": "Trim leaves to 3-4 inches for flavor",
+  "Soil_Type": "Well-drained, loamy soil",
+  "Soil_pH": "6.0–6.5",
+  "Pest_Management": "Monitor for aphids and spider mites",
+  "Disease_Management": "Ensure good drainage to prevent root rot",
+  "Common_Pests": [
+    "Aphids",
+    "Spider Mites"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Peppers",
+    "Basil"
+  ],
+  "Regional_Tips": {
+    "Zone_9": "Grows year-round in tropical climates.",
+    "Zone_10": "Can be grown in containers indoors."
+  },
+  "Special_Instructions": "Requires warm, humid conditions to grow well."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb1"
+  },
+  "Herb": "Marjoram",
+  "Scientific_Name": "Origanum majorana",
+  "Zones": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "60-75 days",
+  "Germination_Time": "10-15 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 85°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water regularly, but allow soil to dry between waterings",
+  "Fertilizer_Needs": "Light feeding with balanced fertilizer",
+  "Pruning_Needs": "Pinch back tips regularly to encourage bushiness",
+  "Soil_Type": "Well-drained, sandy loam soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Generally pest-free; monitor for aphids",
+  "Disease_Management": "Ensure good drainage to prevent root rot",
+  "Common_Pests": [
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "6-12 inches",
+  "Spacing_Between_Rows": "12-18 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Basil",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Plant after last frost.",
+    "Zone_9": "Can grow year-round."
+  },
+  "Special_Instructions": "Pinch back flowers to keep the plant producing leaves."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb2"
+  },
+  "Herb": "Mint",
+  "Scientific_Name": "Mentha spp.",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": true,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "90 days",
+  "Germination_Time": "7-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "50°F to 75°F",
+  "Minimum_Temperature_Tolerance": "40°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun to Partial Shade",
+  "Sun_Exposure": "4-6 hours of sunlight daily",
+  "Watering_Needs": "Water regularly; keep soil moist",
+  "Fertilizer_Needs": "Feed once a month with balanced fertilizer",
+  "Pruning_Needs": "Cut back flowers to encourage leaf production",
+  "Soil_Type": "Moist, well-drained soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and whiteflies",
+  "Disease_Management": "Avoid waterlogging to prevent root rot",
+  "Common_Pests": [
+    "Aphids",
+    "Whiteflies"
+  ],
+  "Common_Diseases": [
+    "Powdery Mildew"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Cabbage",
+    "Lettuce"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Can be grown in containers to control growth.",
+    "Zone_8": "Can grow year-round in mild climates."
+  },
+  "Special_Instructions": "Plant in containers or garden beds to prevent spreading."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb3"
+  },
+  "Herb": "Oregano",
+  "Scientific_Name": "Origanum vulgare",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "70-90 days",
+  "Germination_Time": "7-10 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "55°F to 80°F",
+  "Minimum_Temperature_Tolerance": "50°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water regularly, but allow soil to dry between waterings",
+  "Fertilizer_Needs": "Feed lightly with balanced fertilizer",
+  "Pruning_Needs": "Trim back regularly to encourage bushiness",
+  "Soil_Type": "Well-drained, slightly alkaline soil",
+  "Soil_pH": "6.5–7.5",
+  "Pest_Management": "Monitor for aphids and spider mites",
+  "Disease_Management": "Ensure well-drained soil to prevent root rot",
+  "Common_Pests": [
+    "Aphids",
+    "Spider Mites"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Basil",
+    "Oregano"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb4"
+  },
+  "Herb": "Parsley",
+  "Scientific_Name": "Petroselinum crispum",
+  "Zones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": true,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "70-90 days",
+  "Germination_Time": "7-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "50°F to 75°F",
+  "Minimum_Temperature_Tolerance": "40°F",
+  "Maximum_Temperature_Tolerance": "85°F",
+  "Light_Requirements": "Full Sun to Partial Shade",
+  "Sun_Exposure": "4-6 hours of sunlight daily",
+  "Watering_Needs": "Water regularly, but not overwater",
+  "Fertilizer_Needs": "Occasional feeding with compost",
+  "Pruning_Needs": "Trim regularly to encourage fresh growth",
+  "Soil_Type": "Well-drained, fertile soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Generally pest-free, monitor for aphids",
+  "Disease_Management": "Ensure good drainage to prevent root rot",
+  "Common_Pests": [
+    "Aphids"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "6-8 inches",
+  "Spacing_Between_Rows": "12-18 inches",
+  "Companion_Plants": [
+    "Tomatoes",
+    "Carrots",
+    "Chives"
+  ],
+  "Regional_Tips": {
+    "Zone_5": "Direct sow outdoors after last frost.",
+    "Zone_9": "Grows well in containers."
+  },
+  "Special_Instructions": "Prefers moist, fertile soil with good drainage."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb5"
+  },
+  "Herb": "Rosemary",
+  "Scientific_Name": "Rosmarinus officinalis",
+  "Zones": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "1-2 years",
+  "Germination_Time": "14-21 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September",
+    "October"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "65°F to 80°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water moderately, allowing soil to dry out between waterings",
+  "Fertilizer_Needs": "Light monthly fertilization with balanced fertilizer",
+  "Pruning_Needs": "Prune regularly to maintain shape and encourage new growth",
+  "Soil_Type": "Well-drained, slightly acidic soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Monitor for aphids and mealybugs",
+  "Disease_Management": "Ensure well-drained soil to prevent root rot",
+  "Common_Pests": [
+    "Aphids",
+    "Mealybugs"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "18-24 inches",
+  "Spacing_Between_Rows": "24-36 inches",
+  "Companion_Plants": [
+    "Thyme",
+    "Oregano",
+    "Basil"
+  ],
+  "Regional_Tips": {
+    "Zone_8": "Provide winter protection if temperatures drop below 20°F.",
+    "Zone_10": "Can be grown year-round."
+  },
+  "Special_Instructions": "Avoid overwatering and provide good air circulation."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb6"
+  },
+  "Herb": "Sage",
+  "Scientific_Name": "Salvia officinalis",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "April",
+    "May"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "75-85 days",
+  "Germination_Time": "10-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "20°F",
+  "Maximum_Temperature_Tolerance": "95°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water moderately, but allow the soil to dry out between waterings",
+  "Fertilizer_Needs": "Feed with balanced fertilizer every spring",
+  "Pruning_Needs": "Trim back regularly to maintain shape and encourage fresh growth",
+  "Soil_Type": "Well-drained, slightly alkaline soil",
+  "Soil_pH": "6.5–7.0",
+  "Pest_Management": "Monitor for aphids and spider mites",
+  "Disease_Management": "Ensure well-drained soil to prevent root rot",
+  "Common_Pests": [
+    "Aphids",
+    "Spider Mites"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "18-24 inches",
+  "Spacing_Between_Rows": "24-36 inches",
+  "Companion_Plants": [
+    "Rosemary",
+    "Thyme",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone_6": "Provide winter protection in colder climates.",
+    "Zone_8": "Can be grown year-round in warmer climates."
+  },
+  "Special_Instructions": "Prune after flowering to encourage fresh growth."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb7"
+  },
+  "Herb": "Tarragon",
+  "Scientific_Name": "Artemisia dracunculus",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "70-80 days",
+  "Germination_Time": "7-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "June",
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "60°F to 75°F",
+  "Minimum_Temperature_Tolerance": "40°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water moderately; prefers dry soil",
+  "Fertilizer_Needs": "Minimal feeding with compost or balanced fertilizer",
+  "Pruning_Needs": "Prune back stems after flowering",
+  "Soil_Type": "Well-drained, sandy soil",
+  "Soil_pH": "6.0–7.0",
+  "Pest_Management": "Generally pest-free",
+  "Disease_Management": "Ensure good drainage to prevent root rot",
+  "Common_Pests": [
+    "Aphids",
+    "Spider Mites"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Basil",
+    "Oregano",
+    "Thyme"
+  ],
+  "Regional_Tips": {
+    "Zone_4": "Provide winter protection if temperatures drop below freezing.",
+    "Zone_8": "Can be grown outdoors year-round."
+  },
+  "Special_Instructions": "Prefers dry soil conditions."
+},
+{
+  "_id": {
+    "$oid": "68157afdc449ff36a71c8bb8"
+  },
+  "Herb": "Thyme",
+  "Scientific_Name": "Thymus vulgaris",
+  "Zones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "Planting_Season_Spring": true,
+  "Planting_Season_Summer": false,
+  "Planting_Season_Fall": false,
+  "Planting_Season_Winter": false,
+  "Planting_Time_Spring": [
+    "March",
+    "April"
+  ],
+  "Planting_Time_Summer": null,
+  "Planting_Time_Fall": null,
+  "Planting_Time_Winter": null,
+  "Maturity_Time": "70-90 days",
+  "Germination_Time": "7-14 days",
+  "Harvest_Time_Spring": [
+    "May"
+  ],
+  "Harvest_Time_Summer": [
+    "July",
+    "August"
+  ],
+  "Harvest_Time_Fall": [
+    "September"
+  ],
+  "Harvest_Time_Winter": null,
+  "Temperature_Range": "55°F to 75°F",
+  "Minimum_Temperature_Tolerance": "40°F",
+  "Maximum_Temperature_Tolerance": "90°F",
+  "Light_Requirements": "Full Sun",
+  "Sun_Exposure": "6+ hours of sunlight daily",
+  "Watering_Needs": "Water moderately, let soil dry between waterings",
+  "Fertilizer_Needs": "Feed lightly with balanced fertilizer",
+  "Pruning_Needs": "Trim regularly to encourage new growth",
+  "Soil_Type": "Well-drained, slightly alkaline soil",
+  "Soil_pH": "6.0–7.5",
+  "Pest_Management": "Monitor for aphids and spider mites",
+  "Disease_Management": "Ensure well-drained soil to prevent root rot",
+  "Common_Pests": [
+    "Aphids",
+    "Spider Mites"
+  ],
+  "Common_Diseases": [
+    "Root Rot"
+  ],
+  "Frost_Sensitive": true,
+  "Pollination": "Self-pollinating",
+  "Spacing_Between_Plants": "12-18 inches",
+  "Spacing_Between_Rows": "18-24 inches",
+  "Companion_Plants": [
+    "Rosemary",
+    "Sage",
+    "Oregano"
+  ],
+  "Regional_Tips": {
+    "Zone_6": "Can be grown year-round with winter protection.",
+    "Zone_8": "Thrives outdoors year-round."
+  },
+  "Special_Instructions": "Prune after flowering to keep plants healthy."
+}]
